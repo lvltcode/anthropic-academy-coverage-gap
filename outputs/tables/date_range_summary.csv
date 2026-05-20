@@ -1,0 +1,6 @@
+dataset_slice,row_count,min_release_date,max_release_date
+All Anthropic releases,329,2025-04-02,2026-05-19
+Claude only,37,2025-08-01,2026-04-17
+Claude Code only,292,2025-04-02,2026-05-19
+Substantive only,225,2025-04-02,2026-05-19
+Maintenance only,104,2025-04-02,2026-05-12

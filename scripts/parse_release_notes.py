@@ -145,11 +145,64 @@ def parse_anthropic_releases(html: str, source_url: str) -> list[dict]:
 
 def parse_claude_code_changelog(html: str, source_url: str) -> list[dict]:
     """Parse code.claude.com changelog.
-    May contain MDX <Update> components in source or rendered HTML.
+    Rendered HTML has <div id="X-X-XXX"> containers, each with a sidebar
+    (version + date) and a content div with the actual changelog items.
+    Falls back to MDX <Update> tag extraction if divs aren't found.
     """
     entries = []
+    soup = BeautifulSoup(html, "lxml")
 
-    # Strategy 1: raw MDX <Update label="VER" description="DATE">
+    # Strategy 1: rendered divs with id like "2-1-145"
+    version_id_re = re.compile(r"^\d+-\d+-\d+$")
+    version_divs = soup.find_all("div", id=version_id_re)
+
+    date_re = re.compile(
+        r"((?:January|February|March|April|May|June|July|August|September|"
+        r"October|November|December)\s+\d{1,2},?\s+\d{4})",
+        re.IGNORECASE,
+    )
+
+    if version_divs:
+        for vdiv in version_divs:
+            div_id = vdiv["id"]
+            version = div_id.replace("-", ".")
+
+            # Sidebar: first child has version + date
+            children = vdiv.find_all(True, recursive=False)
+            sidebar_text = children[0].get_text(strip=True) if children else ""
+            date_m = date_re.search(sidebar_text)
+            if not date_m:
+                date_m = date_re.search(vdiv.get_text(strip=True)[:200])
+            if not date_m:
+                continue
+            release_date = try_parse_date(date_m.group(1))
+            if not release_date:
+                continue
+
+            # Content: second child has the actual items
+            if len(children) >= 2:
+                description = children[1].get_text(separator=" ", strip=True)[:500]
+            else:
+                description = vdiv.get_text(separator=" ", strip=True)[:500]
+
+            title = f"Claude Code {version}"
+            combined = f"{title} {description}"
+
+            entries.append({
+                "vendor": "Anthropic",
+                "product_area": "Claude Code",
+                "release_date": release_date,
+                "title": title,
+                "description": description,
+                "source_url": source_url,
+                "source_type": "changelog",
+                "topic_category": categorise(combined),
+                "is_breaking_change": is_breaking(combined),
+                "confidence": "high",
+            })
+        return entries
+
+    # Strategy 2: raw MDX <Update label="VER" description="DATE">
     update_re = re.compile(
         r'<Update\s+label="([^"]+)"\s+description="([^"]+)">(.*?)</Update>',
         re.DOTALL,
@@ -178,95 +231,6 @@ def parse_claude_code_changelog(html: str, source_url: str) -> list[dict]:
                 "is_breaking_change": is_breaking(combined),
                 "confidence": "high",
             })
-        return entries
-
-    # Strategy 2: rendered HTML with headings containing versions / dates
-    soup = BeautifulSoup(html, "lxml")
-
-    # Look for elements that contain version-like text near dates
-    version_re = re.compile(r"(\d+\.\d+\.\d+)")
-    date_re = re.compile(
-        r"((?:January|February|March|April|May|June|July|August|September|"
-        r"October|November|December)\s+\d{1,2},?\s+\d{4})",
-        re.IGNORECASE,
-    )
-
-    # Try headings first
-    for hdr in soup.find_all(["h2", "h3", "h4"]):
-        hdr_text = hdr.get_text(strip=True)
-        ver_m = version_re.search(hdr_text)
-        if not ver_m:
-            continue
-        version = ver_m.group(1)
-
-        # Date may be in header itself or in next sibling
-        date_m = date_re.search(hdr_text)
-        if not date_m:
-            nxt = hdr.find_next_sibling()
-            if nxt:
-                date_m = date_re.search(nxt.get_text(strip=True))
-        if not date_m:
-            continue
-
-        release_date = try_parse_date(date_m.group(1))
-        if not release_date:
-            continue
-
-        desc_parts = []
-        sib = hdr.find_next_sibling()
-        while sib and sib.name not in ("h2", "h3", "h4"):
-            if sib.name in ("ul", "ol"):
-                for li in sib.find_all("li", recursive=False):
-                    desc_parts.append(f"- {li.get_text(strip=True)}")
-            elif sib.name == "p":
-                desc_parts.append(sib.get_text(strip=True))
-            sib = sib.find_next_sibling()
-
-        description = "\n".join(desc_parts)[:500]
-        title = f"Claude Code {version}"
-        combined = f"{title} {description}"
-
-        entries.append({
-            "vendor": "Anthropic",
-            "product_area": "Claude Code",
-            "release_date": release_date,
-            "title": title,
-            "description": description,
-            "source_url": source_url,
-            "source_type": "changelog",
-            "topic_category": categorise(combined),
-            "is_breaking_change": is_breaking(combined),
-            "confidence": "medium",
-        })
-
-    # Strategy 3: plain-text fallback – scan full text for version + date pairs
-    if not entries:
-        full_text = soup.get_text(separator="\n")
-        blocks = re.split(r"\n{2,}", full_text)
-        for block in blocks:
-            ver_m = version_re.search(block)
-            date_m = date_re.search(block)
-            if ver_m and date_m:
-                release_date = try_parse_date(date_m.group(1))
-                if not release_date:
-                    continue
-                version = ver_m.group(1)
-                lines = [l.strip() for l in block.split("\n") if l.strip()]
-                description = "\n".join(lines[:10])[:500]
-                title = f"Claude Code {version}"
-                combined = f"{title} {description}"
-                entries.append({
-                    "vendor": "Anthropic",
-                    "product_area": "Claude Code",
-                    "release_date": release_date,
-                    "title": title,
-                    "description": description,
-                    "source_url": source_url,
-                    "source_type": "changelog",
-                    "topic_category": categorise(combined),
-                    "is_breaking_change": is_breaking(combined),
-                    "confidence": "low",
-                })
 
     return entries
 

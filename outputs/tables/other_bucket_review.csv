@@ -1,0 +1,16 @@
+release_date,title,product_area,original_subcategory,reclassified_subcategory,release_substance,reason
+2026-03-12,"Claude creates interactive charts, diagrams and visualizations",Claude,other,multimodal,maintenance,Creating visual content is a multimodal feature
+2026-03-04,Claude Code 2.1.66,Claude Code,other,cli workflow,maintenance,Error output is CLI behavior
+2026-02-25,Claude Code 2.1.58,Claude Code,other,agentic coding,maintenance,Remote Control is an agentic feature
+2025-10-16,Claude Code 2.0.20,Claude Code,other,agentic coding,substantive,"""Skills"" is an agentic capability"
+2025-09-03,"Location, maps, and calendar access on Claude for iOS and Android",Claude,other,unclassified,maintenance,Mobile platform features do not fit developer tool categories
+2025-08-25,Claude Code 1.0.90,Claude Code,other,cli workflow,maintenance,Settings behavior is CLI workflow
+2025-08-18,Claude Code 1.0.83,Claude Code,other,cli workflow,substantive,@-mention is a CLI interaction feature
+2025-07-03,Claude Code 1.0.39,Claude Code,other,enterprise/admin,substantive,Observability/telemetry is an admin feature
+2025-06-24,Claude Code 1.0.29,Claude Code,other,cli workflow,maintenance,Character rendering is CLI workflow
+2025-06-12,Claude Code 1.0.22,Claude Code,other,API capability,maintenance,SDK rename is an API change
+2025-05-09,Claude Code 0.2.107,Claude Code,other,cli workflow,substantive,CLAUDE.md config is a CLI workflow feature
+2025-05-08,Claude Code 0.2.105,Claude Code,other,unclassified,substantive,Does not fit any specific subcategory
+2025-05-01,Claude Code 0.2.96,Claude Code,other,pricing/billing,maintenance,Subscription is a pricing feature
+2025-04-30,Claude Code 0.2.93,Claude Code,other,cli workflow,maintenance,Conversation resume is a CLI workflow feature
+2025-04-25,Claude Code 0.2.82,Claude Code,other,permissions/security,substantive,Tool restriction is a permissions feature

@@ -1,0 +1,13 @@
+topic_category,topic_subcategory,total_releases,substantive_releases,breaking_changes,courses_covering_count,courses_covering_titles,coverage_status,coverage_confidence,gap_score
+coding,permissions/security,32,21,0,0,,not visible,high,21
+coding,IDE integration,21,14,0,0,,not visible,high,14
+coding,enterprise/admin,15,14,0,0,,not visible,high,14
+model release,model support,24,16,0,11,Claude 101; Claude Code 101; Introduction to Claude Cowork; Claude Code in Action; Building with the Claude API; Introduction to Model Context Protocol; Model Context Protocol: Advanced Topics; Claude with Amazon Bedrock; Claude with Google Cloud's Vertex AI; Introduction to agent skills; Introduction to subagents,partial,medium,8
+model release,multimodal,6,3,0,0,,not visible,high,3
+pricing/billing,pricing/billing,4,3,0,0,,not visible,high,3
+deprecation,deprecation,2,2,2,0,,not visible,high,2
+agent/tooling,MCP/tooling,97,85,0,3,Introduction to Claude Cowork; Introduction to Model Context Protocol; Model Context Protocol: Advanced Topics,covered,high,0
+agent/tooling,agentic coding,69,54,0,3,Introduction to Claude Cowork; Introduction to agent skills; Introduction to subagents,covered,high,0
+coding,bug fix,34,0,1,0,,not visible,high,0
+coding,cli workflow,21,13,0,2,Claude Code 101; Claude Code in Action,covered,high,0
+coding,other,4,0,0,0,,not visible,high,0

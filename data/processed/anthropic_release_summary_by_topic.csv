@@ -1,0 +1,43 @@
+topic_category,topic_subcategory,product_area,total_releases,substantive,maintenance,breaking_changes
+agent/tooling,IDE integration,Claude Code,7,3,4,0
+agent/tooling,MCP/tooling,Claude Code,71,65,6,0
+agent/tooling,agentic coding,Claude,6,6,0,0
+agent/tooling,agentic coding,Claude Code,23,18,5,0
+agent/tooling,cli workflow,Claude,1,1,0,0
+agent/tooling,enterprise/admin,Claude,1,1,0,0
+coding,IDE integration,Claude Code,9,6,3,0
+coding,MCP/tooling,Claude Code,2,1,1,0
+coding,agentic coding,Claude,1,1,0,0
+coding,agentic coding,Claude Code,18,9,9,0
+coding,bug fix,Claude Code,34,0,34,1
+coding,cli workflow,Claude Code,19,11,8,0
+coding,enterprise/admin,Claude,3,3,0,0
+coding,enterprise/admin,Claude Code,5,4,1,0
+coding,model support,Claude Code,6,0,6,0
+coding,multimodal,Claude,1,0,1,0
+coding,other,Claude Code,3,0,3,0
+coding,permissions/security,Claude,1,1,0,0
+coding,permissions/security,Claude Code,23,12,11,0
+deprecation,IDE integration,Claude Code,1,1,0,1
+deprecation,MCP/tooling,Claude Code,2,2,0,2
+deprecation,agentic coding,Claude,1,1,0,1
+deprecation,agentic coding,Claude Code,5,5,0,4
+deprecation,deprecation,Claude Code,2,2,0,2
+deprecation,enterprise/admin,Claude Code,1,1,0,0
+deprecation,model support,Claude Code,3,3,0,3
+deprecation,permissions/security,Claude Code,1,1,0,1
+enterprise/admin,enterprise/admin,Claude,4,4,0,0
+model release,IDE integration,Claude Code,4,4,0,0
+model release,MCP/tooling,Claude Code,22,17,5,0
+model release,agentic coding,Claude,4,4,0,0
+model release,agentic coding,Claude Code,11,10,1,0
+model release,cli workflow,Claude Code,1,1,0,0
+model release,enterprise/admin,Claude Code,1,1,0,0
+model release,model support,Claude,4,4,0,0
+model release,model support,Claude Code,11,9,2,0
+model release,multimodal,Claude,3,3,0,0
+model release,permissions/security,Claude Code,7,7,0,0
+other,multimodal,Claude,2,0,2,0
+other,other,Claude,1,0,1,0
+other,pricing/billing,Claude,1,1,0,0
+pricing/billing,pricing/billing,Claude,3,2,1,0
