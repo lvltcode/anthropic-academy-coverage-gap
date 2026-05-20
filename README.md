@@ -1,4 +1,4 @@
-# AI Content Decay Analysis
+# # Anthropic Academy Coverage Gap Analysis
 
 Measuring the gap between AI product release velocity and public learning content coverage — starting with Anthropic.
 
