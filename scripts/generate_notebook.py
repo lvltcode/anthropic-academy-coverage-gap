@@ -376,26 +376,8 @@ for _, m in mapping.iterrows():
         if c and c != "nan":
             course_topics_map.setdefault(c, set()).add(m["topic_subcategory"])
 
-course_tbl = [
-    "| Course | Description | Topics Covered |",
-    "|--------|-------------|----------------|",
-]
-for _, c in courses.iterrows():
-    title = c["title"]
-    desc = str(c["description"])[:130].replace("|", "/")
-    topics = ", ".join(sorted(course_topics_map.get(title, set())))
-    if not topics:
-        topics = "—"
-    course_tbl.append(f"| {title} | {desc} | {topics} |")
-course_table_md = "\n".join(course_tbl)
-
-src_tbl = [
-    "| Source | Vendor | Type | Status | HTTP |",
-    "|--------|--------|------|--------|------|",
-]
-for _, s in source_status.iterrows():
-    src_tbl.append(f"| {s['source_id']} | {s['vendor']} | {s['source_type']} | {s['fetch_status']} | {int(s['http_status'])} |")
-src_table_md = "\n".join(src_tbl)
+# (Tables for Data Sources and Course Catalog are rendered via code cells
+#  with DataFrame display to avoid GitHub markdown rendering issues.)
 
 
 def md(source: str) -> dict:
@@ -484,13 +466,22 @@ cells = [
     """),
 
     # ── Data sources ──
-    md(f"""
+    md("""
     ## Data Sources
 
     Data collected 2026-05-20. A prior reconnaissance phase ([00_data_reconnaissance.ipynb](00_data_reconnaissance.ipynb)) assessed all sources.
+    """),
 
-    {src_table_md}
+    code("""
+    # Source fetch status
+    src = pd.read_csv('../data/interim/source_status.csv')
+    src_display = src[['source_id', 'vendor', 'source_type', 'fetch_status', 'http_status']].copy()
+    src_display.columns = ['Source', 'Vendor', 'Type', 'Status', 'HTTP']
+    src_display['HTTP'] = src_display['HTTP'].astype(int)
+    src_display
+    """),
 
+    md("""
     **Anthropic** (primary): clean release data + clean course catalog. **OpenAI**: HTTP 403. **Google**: excluded from V1.
     """),
 
@@ -648,14 +639,23 @@ cells = [
 
     {total_courses} public courses on Skilljar. No course update timestamps are publicly visible.
 
-    {course_table_md}
+    Full catalog: `outputs/tables/academy_course_catalog_clean.csv`
     """),
 
     code("""
-    # Compact catalog display
-    cat = courses[['title', 'description', 'topic_category']].copy()
-    cat['description'] = cat['description'].str[:100] + '...'
-    cat.columns = ['Course', 'Description', 'Topic']
+    # Build course-to-topic lookup from the coverage mapping
+    _ct = {}
+    for _, _m in mapping.iterrows():
+        _cs = str(_m['related_academy_courses']) if pd.notna(_m['related_academy_courses']) else ''
+        for _c in _cs.split('; '):
+            _c = _c.strip()
+            if _c and _c != 'nan':
+                _ct.setdefault(_c, set()).add(_m['topic_subcategory'])
+
+    cat = courses[['title', 'description']].copy()
+    cat['description'] = cat['description'].str[:120]
+    cat['topics_covered'] = cat['title'].map(lambda t: ', '.join(sorted(_ct.get(t, set()))) or '—')
+    cat.columns = ['Course', 'Description', 'Topics Covered']
     cat
     """),
 
