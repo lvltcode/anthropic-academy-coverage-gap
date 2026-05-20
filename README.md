@@ -1,6 +1,6 @@
-# # Anthropic Academy Coverage Gap Analysis
+## Anthropic Academy Coverage Gap Analysis
 
-Measuring the gap between AI product release velocity and public learning content coverage — starting with Anthropic.
+A public-data case study measuring Anthropic product release velocity against visible Anthropic Academy course coverage.
 
 This is the evidence layer for [*Anthropic Academy and the Skill Formation Gap*](https://craftmindship.com/analysis/anthropic-academy-skill-formation).
 
