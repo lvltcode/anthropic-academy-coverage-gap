@@ -1,0 +1,9 @@
+pandas
+requests
+beautifulsoup4
+lxml
+matplotlib
+python-dateutil
+tqdm
+jupyter
+playwright

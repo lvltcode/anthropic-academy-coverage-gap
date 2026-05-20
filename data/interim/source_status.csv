@@ -1,0 +1,9 @@
+source_id,vendor,source_type,url,fetch_method,fetch_status,http_status,fetched_at,notes
+anthropic_release_notes,Anthropic,product_release,https://support.claude.com/en/articles/12138966-release-notes,requests,success,200,2026-05-20T04:47:24.295043+00:00,
+claude_code_changelog,Anthropic,product_release,https://code.claude.com/docs/en/changelog,requests,success,200,2026-05-20T04:47:27.254201+00:00,
+google_gemini_changelog,Google,product_release,https://ai.google.dev/gemini-api/docs/changelog,requests,success,200,2026-05-20T04:47:30.028298+00:00,
+openai_changelog,OpenAI,product_release,https://platform.openai.com/docs/changelog,requests,forbidden,403,2026-05-20T04:47:33.624174+00:00,Access forbidden - may require auth or block bots
+openai_index,OpenAI,product_release,https://openai.com/index/,requests,forbidden,403,2026-05-20T04:47:36.229699+00:00,Access forbidden - may require auth or block bots
+anthropic_academy,Anthropic,learning_content,https://anthropic.skilljar.com/,requests,success,200,2026-05-20T04:47:38.832927+00:00,
+openai_academy,OpenAI,learning_content,https://academy.openai.com/,requests,success,200,2026-05-20T04:47:41.647541+00:00,
+google_ai_tutorials,Google,learning_content,https://ai.google.dev/gemini-api/docs/quickstart,requests,success,200,2026-05-20T04:47:44.697390+00:00,

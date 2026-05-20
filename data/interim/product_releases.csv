@@ -1,0 +1,1490 @@
+vendor,product_area,release_date,title,description,source_url,source_type,topic_category,is_breaking_change,confidence
+Anthropic,Claude Code,2026-05-19,Claude Code 2.1.145,"​
+2.1.145
+May 19, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-05-19,Claude Code 2.1.144,"​
+2.1.144
+May 19, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-05-19,"Releasedgemini-3.5-flash, the generally available (GA) version ofGemini 3.5 Flash,
+our most intelligent model for sustai","Releasedgemini-3.5-flash, the generally available (GA) version ofGemini 3.5 Flash,
+our most intelligent model for sustained frontier performance on
+agentic and coding tasks.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2026-05-19,"Launched theManaged Agents in the Gemini APIin public preview. This enables
+developers to build and deploy autonomous, s","Launched theManaged Agents in the Gemini APIin public preview. This enables
+developers to build and deploy autonomous, stateful agents that run in
+secure, isolated Google-hosted Linux sandbox environments. To learn more,
+see theAgents overviewpage and theQuickstart.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2026-05-19,"Released the general-purposeAntigravity Agentmanaged agent,antigravity-preview-05-2026, in public preview.
+The Antigravi","Released the general-purposeAntigravity Agentmanaged agent,antigravity-preview-05-2026, in public preview.
+The Antigravity agent can autonomously plan, reason, write and execute code,
+manage files, and browse the web inside its sandbox container. See theAntigravity Agentguide for code
+samples and specifications.",https://ai.google.dev/gemini-api/docs/changelog,changelog,agent/tooling,False,high
+Anthropic,Claude Code,2026-05-15,Claude Code 2.1.143,"​
+2.1.143
+May 15, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-05-14,Claude Code 2.1.142,"​
+2.1.142
+May 14, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-05-13,Claude Code 2.1.141,"​
+2.1.141
+May 13, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-05-12,Claude Code 2.1.140,"​
+2.1.140
+May 12, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-05-11,Claude Code 2.1.139,"​
+2.1.139
+May 11, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-05-09,Claude Code 2.1.138,"​
+2.1.138
+May 9, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-05-09,Claude Code 2.1.137,"​
+2.1.137
+May 9, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-05-08,Claude Code 2.1.136,"​
+2.1.136
+May 8, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-05-07,Claude Code 2.1.133,"​
+2.1.133
+May 7, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-05-07,"Releasedgemini-3.1-flash-lite, the generally available (GA) version ofGemini 3.1 Flash-Lite,
+optimized for speed, scale,","Releasedgemini-3.1-flash-lite, the generally available (GA) version ofGemini 3.1 Flash-Lite,
+optimized for speed, scale, and cost efficiency.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2026-05-07,"Deprecation announcement: Thegemini-3.1-flash-lite-previewmodel is
+deprecating on 5/11/26 and will beshut downon May 25,","Deprecation announcement: Thegemini-3.1-flash-lite-previewmodel is
+deprecating on 5/11/26 and will beshut downon May 25, 2026.",https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,True,high
+Anthropic,Claude Code,2026-05-06,Claude Code 2.1.132,"​
+2.1.132
+May 6, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-05-06,Claude Code 2.1.131,"​
+2.1.131
+May 6, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-05-06,Claude Code 2.1.129,"​
+2.1.129
+May 6, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-05-06,"Upcoming breaking change: TheInteractions APIrequest and response schema (outputs→steps) and output format
+configuration","Upcoming breaking change: TheInteractions APIrequest and response schema (outputs→steps) and output format
+configuration (response_format) are changing. The new schema becomes the
+default onMay 26and the legacy schema will be removed onJune 8.
+See themigration guidefor details.",https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,True,high
+Google,Gemini API,2026-05-05,"UpdatedFile Searchto support multimodal search. You can now natively
+embed and search through images using thegemini-emb","UpdatedFile Searchto support multimodal search. You can now natively
+embed and search through images using thegemini-embedding-2model.
+Grounding metadata now includesmedia_idfor visual citations andpage_numbersthat indicate where information is found. To learn
+more, see theFile Searchguide.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2026-05-04,Claude Code 2.1.128,"​
+2.1.128
+May 4, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-05-04,"Launched event-drivenWebhookssupport in the
+Gemini API to replace polling workflows for the Batch API and long-running
+o","Launched event-drivenWebhookssupport in the
+Gemini API to replace polling workflows for the Batch API and long-running
+operations.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2026-05-01,Claude Code 2.1.126,"​
+2.1.126
+May 1, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-04-30,Thegemini-robotics-er-1.5-previewmodel has beenshut down. Usegemini-robotics-er-1.6-previewinstead.,Thegemini-robotics-er-1.5-previewmodel has beenshut down. Usegemini-robotics-er-1.6-previewinstead.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2026-04-29,Claude Code 2.1.123,"​
+2.1.123
+April 29, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-04-28,Claude Code 2.1.122,"​
+2.1.122
+April 28, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-04-28,Claude Code 2.1.121,"​
+2.1.121
+April 28, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-04-28,Claude Code 2.1.120,"​
+2.1.120
+April 28, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-04-23,Claude Code 2.1.119,"​
+2.1.119
+April 23, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-04-23,Claude Code 2.1.118,"​
+2.1.118
+April 23, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-04-22,Claude Code 2.1.117,"​
+2.1.117
+April 22, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-04-22,"Releasedgemini-embedding-2as generally available
+(GA). To learn more, see theEmbeddingspage.","Releasedgemini-embedding-2as generally available
+(GA). To learn more, see theEmbeddingspage.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2026-04-21,"Released new versions of theDeep Researchagent with collaborative planning, visualization support, MCP server
+integratio","Released new versions of theDeep Researchagent with collaborative planning, visualization support, MCP server
+integration, and File Search:deep-research-preview-04-2026: Designed for
+speed and efficiency, ideal to be streamed back to a client UI.deep-research-max-preview-04-2026: Maximum
+comprehensiveness for automated context gathering and synthesis.",https://ai.google.dev/gemini-api/docs/changelog,changelog,agent/tooling,False,high
+Anthropic,Claude Code,2026-04-20,Claude Code 2.1.116,"​
+2.1.116
+April 20, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-04-18,Claude Code 2.1.114,"​
+2.1.114
+April 18, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2026-04-17,Claude Design by Anthropic Labs,"With Opus 4.7, we also launched Claude Design, a newAnthropic Labsproduct that lets you collaborate with Claude to create visual outputs like designs, prototypes, slides, and one-pagers. For more information, seeGet started with Claude Design.",https://support.claude.com/en/articles/12138966-release-notes,release_notes,model release,False,high
+Anthropic,Claude Code,2026-04-17,Claude Code 2.1.113,"​
+2.1.113
+April 17, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2026-04-16,Claude Opus 4.7 launch,"Our latest model, Claude Opus 4.7, is now generally available. Opus 4.7 shows improvements in software engineering and complex, long-running coding tasks, as well as better vision, allowing it to see images in higher resolution. For more information, see our blog post:Introducing Claude Opus 4.7.",https://support.claude.com/en/articles/12138966-release-notes,release_notes,model release,False,high
+Anthropic,Claude Code,2026-04-16,Claude Code 2.1.112,"​
+2.1.112
+April 16, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-04-16,Claude Code 2.1.111,"​
+2.1.111
+April 16, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-04-15,Claude Code 2.1.110,"​
+2.1.110
+April 15, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-04-15,Claude Code 2.1.109,"​
+2.1.109
+April 15, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-04-15,"LaunchedGemini 3.1 Flash TTS Preview, our cost-efficient,
+expressive, and steerable text to speech model. Read theText-t","LaunchedGemini 3.1 Flash TTS Preview, our cost-efficient,
+expressive, and steerable text to speech model. Read theText-to-Speechdocs to learn more.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2026-04-14,Claude Code 2.1.108,"​
+2.1.108
+April 14, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-04-14,Claude Code 2.1.107,"​
+2.1.107
+April 14, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-04-14,"Releasedgemini-robotics-er-1.6-preview, our updated robotics model.
+It now has new capabilities like instrument reading,","Releasedgemini-robotics-er-1.6-preview, our updated robotics model.
+It now has new capabilities like instrument reading, improved spatial and
+physical reasoning capabilities. To learn more, seeGemini Robotics-ERpage and theblog.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2026-04-14,"Deprecation announcement: Thegemini-robotics-er-1.5-previewmodel
+will beshut downon April 30, 2026 at 9AM
+PST.","Deprecation announcement: Thegemini-robotics-er-1.5-previewmodel
+will beshut downon April 30, 2026 at 9AM
+PST.",https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,True,high
+Anthropic,Claude Code,2026-04-13,Claude Code 2.1.105,"​
+2.1.105
+April 13, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-04-10,Claude Code 2.1.101,"​
+2.1.101
+April 10, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2026-04-09,Claude Cowork generally available,"Claude Cowork is now generally available on macOS and Windows through the Claude Desktop app. With this, we’re expanding Claude Cowork with new capabilities:
+- Claude Cowork in the Analytics API.For more information, seeClaude Enterprise Analytics API: Access engagement and adoption data.
+- Usage analytics for Claude Cowork.For more information, seeView usage analytics for Team and Enterprise plans.
+- Claude Cowork OpenTelemetry support.For more information, seeMonitor Claude Cowork activity wit",https://support.claude.com/en/articles/12138966-release-notes,release_notes,model release,False,high
+Anthropic,Claude Code,2026-04-09,Claude Code 2.1.98,"​
+2.1.98
+April 9, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-04-08,Claude Code 2.1.97,"​
+2.1.97
+April 8, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-04-08,Claude Code 2.1.96,"​
+2.1.96
+April 8, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-04-07,Claude Code 2.1.94,"​
+2.1.94
+April 7, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-04-04,Claude Code 2.1.92,"​
+2.1.92
+April 4, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-04-02,Claude Code 2.1.91,"​
+2.1.91
+April 2, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-04-02,"Releasedgemma-4-26b-a4b-itandgemma-4-31b-it, available onAI Studioand through the Gemini API,
+as part of theGemma 4launc","Releasedgemma-4-26b-a4b-itandgemma-4-31b-it, available onAI Studioand through the Gemini API,
+as part of theGemma 4launch.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2026-04-01,Claude Code 2.1.90,"​
+2.1.90
+April 1, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-04-01,Claude Code 2.1.89,"​
+2.1.89
+April 1, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-04-01,"Introduced the newFlexandPriorityinference tiers, offering more options
+for optimizing cost or latency.","Introduced the newFlexandPriorityinference tiers, offering more options
+for optimizing cost or latency.",https://ai.google.dev/gemini-api/docs/changelog,changelog,pricing/billing,False,high
+Google,Gemini API,2026-03-31,"Launched Veo 3.1 Lite Preview,veo-3.1-lite-generate-preview, our most
+cost-efficientvideo generationmodel, designed
+for ","Launched Veo 3.1 Lite Preview,veo-3.1-lite-generate-preview, our most
+cost-efficientvideo generationmodel, designed
+for rapid iteration and building high-volume applications.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2026-03-31,Thegemini-2.5-flash-lite-preview-09-2025model has been shut down. Usegemini-3.1-flash-lite-previewinstead.,Thegemini-2.5-flash-lite-preview-09-2025model has been shut down. Usegemini-3.1-flash-lite-previewinstead.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2026-03-29,Claude Code 2.1.87,"​
+2.1.87
+March 29, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-03-27,Claude Code 2.1.86,"​
+2.1.86
+March 27, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-03-26,Claude Code 2.1.85,"​
+2.1.85
+March 26, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-03-26,Claude Code 2.1.84,"​
+2.1.84
+March 26, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-03-26,"Releasedgemini-3.1-flash-live-preview, the latest
+audio-to-audio (A2A) model designed for real-time dialogue and voice-f","Releasedgemini-3.1-flash-live-preview, the latest
+audio-to-audio (A2A) model designed for real-time dialogue and voice-first
+AI applications. Read theLive APIdocs to get
+started.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude,2026-03-25,Interactive apps in Claude for iOS and Android,"The Claude mobile app can now connect to fully interactive apps. Pull up live charts, sketch diagrams, and build shareable assets, all rendered visually right in your conversation. For more information, seeUse interactive connectors in Claude.",https://support.claude.com/en/articles/12138966-release-notes,release_notes,other,False,high
+Anthropic,Claude Code,2026-03-25,Claude Code 2.1.83,"​
+2.1.83
+March 25, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-03-25,"LaunchedLyria 3music generation
+models:lyria-3-clip-preview(30-second clips) andlyria-3-pro-preview(full-length songs). ","LaunchedLyria 3music generation
+models:lyria-3-clip-preview(30-second clips) andlyria-3-pro-preview(full-length songs). Both models accept text and image inputs and generate
+high-quality, 48kHz stereo audio. See theMusic generationguide for details and
+code samples.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude,2026-03-23,Computer use research preview in Cowork and Claude Code + Dispatch improvements,"Users on Pro and Max plans can give Claude access to computer use. Claude can open files, run dev tools, point, click, and navigate to what’s on your screen to perform tasks itself—with no setup required. Claude’s new computer use capability makes Dispatch even more helpful by allowing it to use your computer on your behalf while you’re away. For more information, seeLet Claude use your computer in Coworkor our blog post:Put Claude to work on your computer.",https://support.claude.com/en/articles/12138966-release-notes,release_notes,agent/tooling,False,high
+Google,Gemini API,2026-03-23,"Rolled outPrepay and Postpay billing plansin
+AI Studio. Existing accounts may be affected; read theBillingdocumentation ","Rolled outPrepay and Postpay billing plansin
+AI Studio. Existing accounts may be affected; read theBillingdocumentation for more information.",https://ai.google.dev/gemini-api/docs/changelog,changelog,pricing/billing,False,high
+Anthropic,Claude Code,2026-03-20,Claude Code 2.1.81,"​
+2.1.81
+March 20, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-03-19,Claude Code 2.1.80,"​
+2.1.80
+March 19, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-03-18,Claude Code 2.1.79,"​
+2.1.79
+March 18, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-03-18,"Released the newBuilt-in Tools and Function Calling Combinationfeature, making it possible
+to use Gemini's built-in tool","Released the newBuilt-in Tools and Function Calling Combinationfeature, making it possible
+to use Gemini's built-in tools alongside custom function calling
+tools in a single API call.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2026-03-18,Grounding with Google Mapsis now supported for Gemini 3 models going forward.,Grounding with Google Mapsis now supported for Gemini 3 models going forward.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude,2026-03-17,Control Cowork from your phone with a persistent thread (research preview for Pro/Max),"Users on Pro and Max plans can access a persistent agent thread via Claude Desktop or Claude for iOS/Android to manage tasks in Cowork. We're rolling this out to Max plans starting today, and Pro plans over the next two days. For more information, seeAssign tasks to Claude from anywhere in Cowork.",https://support.claude.com/en/articles/12138966-release-notes,release_notes,agent/tooling,False,high
+Anthropic,Claude Code,2026-03-17,Claude Code 2.1.78,"​
+2.1.78
+March 17, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-03-17,Claude Code 2.1.77,"​
+2.1.77
+March 17, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-03-16,Introduced revampedUsage TiersandBilling Account spend capsfor a better user billing experience.,Introduced revampedUsage TiersandBilling Account spend capsfor a better user billing experience.,https://ai.google.dev/gemini-api/docs/changelog,changelog,pricing/billing,False,high
+Anthropic,Claude Code,2026-03-14,Claude Code 2.1.76,"​
+2.1.76
+March 14, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-03-13,Claude Code 2.1.75,"​
+2.1.75
+March 13, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2026-03-12,"Claude creates interactive charts, diagrams and visualizations","Claude can now create custom charts, diagrams and other visualizations in-line in its responses. For more information, seeCustom visuals in chat.",https://support.claude.com/en/articles/12138966-release-notes,release_notes,other,False,high
+Anthropic,Claude Code,2026-03-12,Claude Code 2.1.74,"​
+2.1.74
+March 12, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-03-12,Introducedproject-level spend capsto billing in AI Studio.,Introducedproject-level spend capsto billing in AI Studio.,https://ai.google.dev/gemini-api/docs/changelog,changelog,pricing/billing,False,high
+Anthropic,Claude,2026-03-11,Work across Excel and PowerPoint,"We’ve improved our Claude for Excel and Claude for PowerPoint add-ins. They can now share the full context of your conversation, so every action Claude takes in one application is informed by everything that’s happened in the other. We also added support for skills in the add-ins, and the ability for Amazon Bedrock, Google Cloud’s Vertex AI, or Microsoft Foundry users to connect to them via an LLM gateway. For more information, refer to the following articles:
+- Work across Excel and PowerPoint
+",https://support.claude.com/en/articles/12138966-release-notes,release_notes,other,False,high
+Anthropic,Claude Code,2026-03-11,Claude Code 2.1.73,"​
+2.1.73
+March 11, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-03-10,Claude Code 2.1.72,"​
+2.1.72
+March 10, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-03-10,"Releasedgemini-embedding-2-preview, our first multimodal embedding model.
+It supports text, image, video, audio, and PDF","Releasedgemini-embedding-2-preview, our first multimodal embedding model.
+It supports text, image, video, audio, and PDF inputs,
+mapping all modalities into a unified embedding space. To learn more, seeEmbeddings.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2026-03-10,"Deprecation announcement: Thegemini-2.5-flash-lite-preview-09-2025model
+will beshut downon March 31, 2026.","Deprecation announcement: Thegemini-2.5-flash-lite-preview-09-2025model
+will beshut downon March 31, 2026.",https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,True,high
+Google,Gemini API,2026-03-09,The Gemini 3 Pro Preview model has beenshut down. Thegemini-3-pro-previewnow points togemini-3.1-pro-preview.,The Gemini 3 Pro Preview model has beenshut down. Thegemini-3-pro-previewnow points togemini-3.1-pro-preview.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2026-03-07,Claude Code 2.1.71,"​
+2.1.71
+March 7, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-03-06,Claude Code 2.1.70,"​
+2.1.70
+March 6, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-03-05,Claude Code 2.1.69,"​
+2.1.69
+March 5, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-03-04,Claude Code 2.1.68,"​
+2.1.68
+March 4, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-03-04,Claude Code 2.1.66,"​
+2.1.66
+March 4, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-03-03,"Launched Gemini 3.1 Flash-Lite Preview, the first Flash-Lite model in the
+Gemini 3 series. Read themodel pagefor specs, ","Launched Gemini 3.1 Flash-Lite Preview, the first Flash-Lite model in the
+Gemini 3 series. Read themodel pagefor specs, specific
+updates, and developer guidance.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude,2026-03-02,Memory for free users,"Memory from chat history is now available for all Claude users, including free users. For more information, refer to the following articles:
+- Use Claude’s chat search and memory to build on previous context
+- Import and export your memory from Claude",https://support.claude.com/en/articles/12138966-release-notes,release_notes,pricing/billing,False,high
+Anthropic,Claude Code,2026-02-28,Claude Code 2.1.63,"​
+2.1.63
+February 28, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-02-27,Claude Code 2.1.62,"​
+2.1.62
+February 27, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-02-26,Claude Code 2.1.61,"​
+2.1.61
+February 26, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-02-26,Claude Code 2.1.59,"​
+2.1.59
+February 26, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-02-26,"Launched Nano Banana 2,Gemini 3.1 Flash Image Preview, a high-efficiency
+model optimized for speed and high-volume use c","Launched Nano Banana 2,Gemini 3.1 Flash Image Preview, a high-efficiency
+model optimized for speed and high-volume use cases.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2026-02-26,"Deprecation announcement: Gemini 3 Pro Preview (gemini-3-pro-preview)
+will beshut downMarch 9, 2026.","Deprecation announcement: Gemini 3 Pro Preview (gemini-3-pro-preview)
+will beshut downMarch 9, 2026.",https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,True,high
+Anthropic,Claude,2026-02-25,Scheduled tasks in Cowork,"We introduced the ability to create and schedule both recurring and on-demand tasks in Cowork, as well as a new Customize section in Claude Desktop that groups skills, plugins, and connectors in one place. For more information, seeSchedule recurring tasks in Cowork.",https://support.claude.com/en/articles/12138966-release-notes,release_notes,agent/tooling,False,high
+Anthropic,Claude Code,2026-02-25,Claude Code 2.1.58,"​
+2.1.58
+February 25, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-02-25,Claude Code 2.1.56,"​
+2.1.56
+February 25, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-02-25,Claude Code 2.1.55,"​
+2.1.55
+February 25, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-02-25,Claude Code 2.1.53,"​
+2.1.53
+February 25, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2026-02-24,Cowork plugins and admin controls,"We launched a new plugin marketplace and admin controls for Team and Enterprise plans. For more information, refer to these articles:
+- Manage Cowork plugins for your organization
+- Use plugins in Cowork",https://support.claude.com/en/articles/12138966-release-notes,release_notes,model release,False,high
+Anthropic,Claude Code,2026-02-24,Claude Code 2.1.52,"​
+2.1.52
+February 24, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-02-24,Claude Code 2.1.51,"​
+2.1.51
+February 24, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-02-20,Claude Code 2.1.50,"​
+2.1.50
+February 20, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-02-19,Claude Code 2.1.49,"​
+2.1.49
+February 19, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-02-19,"ReleasedGemini 3.1 Pro Preview, our latest iteration in
+the new Gemini 3 series family.","ReleasedGemini 3.1 Pro Preview, our latest iteration in
+the new Gemini 3 series family.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2026-02-19,"Launched a separate endpointgemini-3.1-pro-preview-customtools, which is
+better at prioritizing custom tools, for users ","Launched a separate endpointgemini-3.1-pro-preview-customtools, which is
+better at prioritizing custom tools, for users building with a mix of bash
+and tools.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2026-02-18,Claude Code 2.1.47,"​
+2.1.47
+February 18, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-02-18,Claude Code 2.1.46,"​
+2.1.46
+February 18, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-02-18,"Deprecation announcement: The following models will beshut downJune 1, 2026:gemini-2.0-flashgemini-2.0-flash-001gemini-2","Deprecation announcement: The following models will beshut downJune 1, 2026:gemini-2.0-flashgemini-2.0-flash-001gemini-2.0-flash-litegemini-2.0-flash-lite-001",https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,True,high
+Anthropic,Claude,2026-02-17,Claude Sonnet 4.6 launch,"We launched our most capable Sonnet model yet, with a full upgrade of the model’s skills across coding, computer use, long-context reasoning, agent planning, knowledge work, and design. Sonnet 4.6 also features a 1M token context window in beta. Read our blog post for more information:Introducing Claude Sonnet 4.6.",https://support.claude.com/en/articles/12138966-release-notes,release_notes,model release,False,high
+Anthropic,Claude Code,2026-02-17,Claude Code 2.1.45,"​
+2.1.45
+February 17, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-02-17,The following models areshut down:gemini-2.5-flash-preview-09-25imagen-4.0-generate-preview-06-06imagen-4.0-ultra-genera,The following models areshut down:gemini-2.5-flash-preview-09-25imagen-4.0-generate-preview-06-06imagen-4.0-ultra-generate-preview-06-06,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2026-02-16,Claude Code 2.1.44,"​
+2.1.44
+February 16, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-02-16,Claude Code 2.1.43,"​
+2.1.43
+February 16, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2026-02-13,Analytics API for Enterprise plans,"The Enterprise Analytics API provides programmatic access to usage and engagement data for Claude and Claude Code Remote usage within your organization. Data is aggregated per organization, per day, and each endpoint returns a snapshot for a single date that you specify. For more information, seeAccess usage data with the Analytics API.",https://support.claude.com/en/articles/12138966-release-notes,release_notes,coding,False,high
+Anthropic,Claude Code,2026-02-13,Claude Code 2.1.42,"​
+2.1.42
+February 13, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-02-13,Claude Code 2.1.41,"​
+2.1.41
+February 13, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2026-02-12,Self-serve Enterprise plans,"Previously, Enterprise plans were only available to customers working with our Sales team. Now, any organization can purchase an Enterprise plan directly on our website with no Sales conversation required. Self-serve Enterprise plans have a single seat type that includes access to Claude, Claude Code, and Cowork. For more information, refer toour blog postorWhat is the Enterprise plan?",https://support.claude.com/en/articles/12138966-release-notes,release_notes,agent/tooling,False,high
+Anthropic,Claude Code,2026-02-10,Claude Code 2.1.39,"​
+2.1.39
+February 10, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-02-10,Claude Code 2.1.38,"​
+2.1.38
+February 10, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-02-07,Claude Code 2.1.37,"​
+2.1.37
+February 7, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-02-07,Claude Code 2.1.36,"​
+2.1.36
+February 7, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-02-06,Claude Code 2.1.34,"​
+2.1.34
+February 6, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-02-06,Claude Code 2.1.33,"​
+2.1.33
+February 6, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2026-02-05,Claude Opus 4.6 launch,"We’ve upgraded our smartest model and improved its coding skills. Read our blog post for more information:Introducing Claude Opus 4.6.
+Introducing Claude for PowerPoint
+Claude is now available as an add-in for PowerPoint. Read more here:Use Claude for PowerPoint.
+Claude for Excel improvements
+We’ve updated Claude for Excel so it uses Opus 4.6 and supports native Excel operations such as pivot table editing and conditional formatting. See our updated article for more information:Using Claude for ",https://support.claude.com/en/articles/12138966-release-notes,release_notes,model release,False,high
+Anthropic,Claude Code,2026-02-05,Claude Code 2.1.32,"​
+2.1.32
+February 5, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-02-04,Claude Code 2.1.31,"​
+2.1.31
+February 4, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-02-03,Claude Code 2.1.30,"​
+2.1.30
+February 3, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-01-31,Claude Code 2.1.29,"​
+2.1.29
+January 31, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-01-30,Claude Code 2.1.27,"​
+2.1.27
+January 30, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-01-29,Claude Code 2.1.25,"​
+2.1.25
+January 29, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-01-29,Claude Code 2.1.23,"​
+2.1.23
+January 29, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-01-29,Launched support for the Computer Use tool ingemini-3-pro-previewandgemini-3-flash-preview.,Launched support for the Computer Use tool ingemini-3-pro-previewandgemini-3-flash-preview.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2026-01-28,Claude Code 2.1.22,"​
+2.1.22
+January 28, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-01-28,Claude Code 2.1.21,"​
+2.1.21
+January 28, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-01-27,Claude Code 2.1.20,"​
+2.1.20
+January 27, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-01-23,Claude Code 2.1.19,"​
+2.1.19
+January 23, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-01-23,Claude Code 2.1.18,"​
+2.1.18
+January 23, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-01-22,Claude Code 2.1.17,"​
+2.1.17
+January 22, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-01-22,Claude Code 2.1.16,"​
+2.1.16
+January 22, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-01-21,Claude Code 2.1.15,"​
+2.1.15
+January 21, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-01-21,Changed thelatestaliases:gemini-pro-latestswitched togemini-3-pro-previewgemini-flash-latestswitched togemini-3-flash-pr,Changed thelatestaliases:gemini-pro-latestswitched togemini-3-pro-previewgemini-flash-latestswitched togemini-3-flash-preview,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2026-01-20,Claude Code 2.1.14,"​
+2.1.14
+January 20, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-01-17,Claude Code 2.1.12,"​
+2.1.12
+January 17, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-01-17,Claude Code 2.1.11,"​
+2.1.11
+January 17, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-01-17,Claude Code 2.1.10,"​
+2.1.10
+January 17, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2026-01-16,Cowork research preview expanded to Pro plans,"Cowork is now available to Pro plan users on Claude Desktop (macOS only).
+Claude Code access added to Team plan Standard seats
+We’re now including Claude Code access with every Team plan standard seat. Refer to this article for more information:Purchasing and managing seats on Team plans.
+Opus 4 and 4.1 deprecated from Claude and Claude Code
+We’ve removed Claude Opus 4 and 4.1 from the Claude model selector and Claude Code. Refer to this article for further details and recommendations:Adapting t",https://support.claude.com/en/articles/12138966-release-notes,release_notes,deprecation,True,high
+Anthropic,Claude Code,2026-01-16,Claude Code 2.1.9,"​
+2.1.9
+January 16, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-01-15,"Deprecation announcement: The following models will beshut downFebruary 17, 2026:gemini-2.5-flash-preview-09-25imagen-4.","Deprecation announcement: The following models will beshut downFebruary 17, 2026:gemini-2.5-flash-preview-09-25imagen-4.0-generate-preview-06-06imagen-4.0-ultra-generate-preview-06-06",https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,True,high
+Google,Gemini API,2026-01-15,Thegemini-2.5-flash-image-previewmodel has been shut down.,Thegemini-2.5-flash-image-previewmodel has been shut down.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2026-01-14,Claude Code 2.1.7,"​
+2.1.7
+January 14, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-01-14,Thetext-embedding-004model has beenshut down.,Thetext-embedding-004model has beenshut down.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2026-01-13,Claude Code 2.1.6,"​
+2.1.6
+January 13, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-01-13,"Added 4k output resolutions forVeoand more 
+support for portrait videos in all resolutions.","Added 4k output resolutions forVeoand more 
+support for portrait videos in all resolutions.",https://ai.google.dev/gemini-api/docs/changelog,changelog,coding,False,high
+Anthropic,Claude,2026-01-12,Cowork research preview on Claude Desktop (macOS only) for Max plans,"Cowork brings Claude Code's agentic capabilities to the Claude desktop app for knowledge work beyond coding. It runs locally on your computer in an isolated VM, enabling direct access to local files and MCP integrations.
+Refer to this article to learn more:Getting started with Cowork.
+Health and fitness data on Claude Mobile
+Claude can now read and analyze your health and fitness data on iOS and Android. Ask Claude about your activity patterns, workout trends, sleep quality, and more—Claude will",https://support.claude.com/en/articles/12138966-release-notes,release_notes,agent/tooling,False,high
+Anthropic,Claude Code,2026-01-12,Claude Code 2.1.5,"​
+2.1.5
+January 12, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-01-12,"Launched model lifecycle feature. Some models will now specify the lifecycle
+stage and deprecation timeline. See the fol","Launched model lifecycle feature. Some models will now specify the lifecycle
+stage and deprecation timeline. See the following documentation for more
+information:Model stages",https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,True,high
+Anthropic,Claude Code,2026-01-11,Claude Code 2.1.4,"​
+2.1.4
+January 11, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-01-09,Claude Code 2.1.3,"​
+2.1.3
+January 9, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-01-09,Claude Code 2.1.2,"​
+2.1.2
+January 9, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2026-01-08,"Launched support for Cloud Storage buckets and any public and private DB
+pre-signed URL as data input source for the Gem","Launched support for Cloud Storage buckets and any public and private DB
+pre-signed URL as data input source for the Gemini API. The file size limit
+has also increased from 20MB to 100MB. For details, seeFile input methods
+guide.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2026-01-07,Claude Code 2.1.0,"​
+2.1.0
+January 7, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-01-07,Claude Code 2.0.76,"​
+2.0.76
+January 7, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2026-01-07,Claude Code 2.0.75,"​
+2.0.75
+January 7, 2026",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-12-19,Claude Code 2.0.74,"​
+2.0.74
+December 19, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-12-19,Claude Code 2.0.73,"​
+2.0.73
+December 19, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-12-19,"Introduced a breaking change to the Interactions API public preview in
+v1beta. Thetotal_reasoning_tokensfield has been r","Introduced a breaking change to the Interactions API public preview in
+v1beta. Thetotal_reasoning_tokensfield has been renamed tototal_thought_tokensto better align with the concept of ""thoughts"" in
+thinking models.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,True,high
+Anthropic,Claude,2025-12-18,"Skills for organizations, partners, and the ecosystem","In October, we introduced skills—a way to teach Claude repeatable workflows tailored to how you work. Skills are now easier to deploy, discover, and build withorganization-wide management for Team and Enterprise plans, adirectoryof partner-built skills, and an open standard (Agent Skills) so skills work across AI platforms.
+Claude in Chrome updates
+Claude in Chrome is now available in beta to all paid plan subscribers, including Pro, Team, and Enterprise plans.
+- Claude Code integration:Build in",https://support.claude.com/en/articles/12138966-release-notes,release_notes,agent/tooling,False,high
+Anthropic,Claude Code,2025-12-17,Claude Code 2.0.72,"​
+2.0.72
+December 17, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-12-17,"Launched Gemini 3 Flash Preview,gemini-3-flash-preview, delivering fast
+frontier-class performance that rivals larger mo","Launched Gemini 3 Flash Preview,gemini-3-flash-preview, delivering fast
+frontier-class performance that rivals larger models at a fraction of the
+cost. With upgraded visual and spatial reasoning, and agentic coding
+capabilities. Read the documentation on some new features, including:Multimodal function responsesCode execution with images",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-12-16,Claude Code 2.0.71,"​
+2.0.71
+December 16, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-12-15,Claude Code 2.0.70,"​
+2.0.70
+December 15, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-12-13,Claude Code 2.0.69,"​
+2.0.69
+December 13, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-12-12,Claude Code 2.0.68,"​
+2.0.68
+December 12, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-12-12,Claude Code 2.0.67,"​
+2.0.67
+December 12, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-12-12,"Releasedgemini-2.5-flash-native-audio-preview-12-2025,
+a new native audio model for the Live API. This update improves t","Releasedgemini-2.5-flash-native-audio-preview-12-2025,
+a new native audio model for the Live API. This update improves the model's
+ability to handle complex workflows. To learn more, see theLive API guideandGemini 2.5 Flash Native Audio.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-12-11,Claude Code 2.0.65,"​
+2.0.65
+December 11, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-12-11,"Launched the Interactions API in Beta. This API provides a unified interface
+for interacting with Gemini models and agen","Launched the Interactions API in Beta. This API provides a unified interface
+for interacting with Gemini models and agents. To learn more, see theInteractions APIguide.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-12-11,"Launched the Gemini Deep Research Agent in preview. It can
+autonomously plan, execute, and synthesize results for multi-","Launched the Gemini Deep Research Agent in preview. It can
+autonomously plan, execute, and synthesize results for multi-step research
+tasks. See theDeep Researchguide for
+details.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-12-10,Claude Code 2.0.64,"​
+2.0.64
+December 10, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-12-10,"Launched enhancements to ourtext-to-speech models, Gemini 2.5 Flash TTS preview
+(optimized for low latency) and Gemini 2","Launched enhancements to ourtext-to-speech models, Gemini 2.5 Flash TTS preview
+(optimized for low latency) and Gemini 2.5 Pro TTS preview (optimized for
+quality), including enhanced expressivity, precision pacing, and seamless
+dialogue.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-12-09,Claude Code 2.0.62,"​
+2.0.62
+December 9, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-12-09,The following Gemini Live API models are now shut down:gemini-2.0-flash-live-001gemini-live-2.5-flash-preview,The following Gemini Live API models are now shut down:gemini-2.0-flash-live-001gemini-live-2.5-flash-preview,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-12-07,Claude Code 2.0.61,"​
+2.0.61
+December 7, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-12-06,Claude Code 2.0.60,"​
+2.0.60
+December 6, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-12-05,"Gemini 3 billing forGrounding with Google Searchwill begin on January 5, 2026.","Gemini 3 billing forGrounding with Google Searchwill begin on January 5, 2026.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-12-04,Claude Code 2.0.59,"​
+2.0.59
+December 4, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-12-04,"Deprecation announcement: Thegemini-2.5-flash-image-previewmodel will be
+shut down January 15, 2026.","Deprecation announcement: Thegemini-2.5-flash-image-previewmodel will be
+shut down January 15, 2026.",https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,True,high
+Anthropic,Claude Code,2025-12-03,Claude Code 2.0.58,"​
+2.0.58
+December 3, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-12-03,Claude Code 2.0.57,"​
+2.0.57
+December 3, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-12-03,"Deprecation announcement: Thetext-embedding-004model will be shut down
+January 14, 2026.","Deprecation announcement: Thetext-embedding-004model will be shut down
+January 14, 2026.",https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,True,high
+Anthropic,Claude Code,2025-12-02,Claude Code 2.0.56,"​
+2.0.56
+December 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-11-26,Claude Code 2.0.55,"​
+2.0.55
+November 26, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-11-26,Claude Code 2.0.54,"​
+2.0.54
+November 26, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2025-11-24,Claude Opus 4.5 launch,"We released our most powerful frontier model to date. Read our blog post for more information:Introducing Claude Opus 4.5.
+Claude for Excel beta release
+Claude for Excel is now available in beta to all Max, Team, and Enterprise users. We’ve added some additional capabilities, such as support for pivot tables, charts and file uploads, plus a shortcut to quickly open the full Claude app from Excel (ctrl+option+c). We've also made overall improvements to performance, speed, context management, and ",https://support.claude.com/en/articles/12138966-release-notes,release_notes,model release,False,high
+Anthropic,Claude Code,2025-11-24,Claude Code 2.0.52,"​
+2.0.52
+November 24, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-11-24,Claude Code 2.0.51,"​
+2.0.51
+November 24, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-11-21,Claude Code 2.0.50,"​
+2.0.50
+November 21, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-11-21,Claude Code 2.0.49,"​
+2.0.49
+November 21, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-11-20,"Released Gemini 3 Pro Image Preview,gemini-3-pro-image-preview, the
+next iteration to the Nano Banana model. Read theIma","Released Gemini 3 Pro Image Preview,gemini-3-pro-image-preview, the
+next iteration to the Nano Banana model. Read theImage generationpage for more details.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-11-19,Claude Code 2.0.47,"​
+2.0.47
+November 19, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-11-19,Claude Code 2.0.46,"​
+2.0.46
+November 19, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-11-18,Claude Code 2.0.45,"​
+2.0.45
+November 18, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-11-18,Claude Code 2.0.43,"​
+2.0.43
+November 18, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-11-18,"Launched the first Gemini 3 series model,gemini-3-pro-preview, our
+state-of-the-art reasoning and multimodal understandi","Launched the first Gemini 3 series model,gemini-3-pro-preview, our
+state-of-the-art reasoning and multimodal understanding model with powerful
+agentic and coding capabilities.In addition to improvements in intelligence and performance,
+Gemini 3 Pro Preview introduces new behavior around:Media resolutionThought signaturesThinking levelsRead theGemini 3 Developer Guidefor
+migration, new features, and specs.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-11-15,Claude Code 2.0.42,"​
+2.0.42
+November 15, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-11-14,Claude Code 2.0.41,"​
+2.0.41
+November 14, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-11-11,Claude Code 2.0.37,"​
+2.0.37
+November 11, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-11-11,Deprecation announcement: The following models will be shut down:November 12:veo-3.0-fast-generate-previewveo-3.0-genera,Deprecation announcement: The following models will be shut down:November 12:veo-3.0-fast-generate-previewveo-3.0-generate-previewNovember 14:gemini-2.0-flash-exp-image-generationgemini-2.0-flash-preview-image-generation,https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,True,high
+Google,Gemini API,2025-11-10,The following model is shut down:imagen-3.0-generate-002UseImagen 4instead. Refer to theGemini deprecations tablefor mor,The following model is shut down:imagen-3.0-generate-002UseImagen 4instead. Refer to theGemini deprecations tablefor more details.,https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,True,high
+Anthropic,Claude Code,2025-11-07,Claude Code 2.0.36,"​
+2.0.36
+November 7, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-11-06,Claude Code 2.0.35,"​
+2.0.35
+November 6, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-11-06,"Launched the File Search API to public preview, enabling developers to
+ground responses in their own data. Read the newF","Launched the File Search API to public preview, enabling developers to
+ground responses in their own data. Read the newFile Searchpage for more info.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-11-05,Claude Code 2.0.34,"​
+2.0.34
+November 5, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-11-04,Claude Code 2.0.33,"​
+2.0.33
+November 4, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-11-04,Claude Code 2.0.32,"​
+2.0.32
+November 4, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-11-04,"ForGemini 2.5 Flash Image, the input
+token count for images has been reduced from 1290 to 258, lowering the cost
+of imag","ForGemini 2.5 Flash Image, the input
+token count for images has been reduced from 1290 to 258, lowering the cost
+of image editing.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-11-04,Deprecation announcement: The following models will be shut down:November 18th:gemini-2.5-flash-lite-preview-06-17gemini,Deprecation announcement: The following models will be shut down:November 18th:gemini-2.5-flash-lite-preview-06-17gemini-2.5-flash-preview-05-20December 2nd:gemini-2.0-flash-thinking-expgemini-2.0-flash-thinking-exp-01-21gemini-2.0-flash-thinking-exp-1219gemini-2.5-pro-preview-03-25gemini-2.5-pro-preview-05-06gemini-2.5-pro-preview-06-05December 9th:gemini-2.0-flash-lite-previewgemini-2.0-flash-lite-preview-02-05gemini-2.0-flash-expgemini-2.0-pro-expgemini-2.0-pro-exp-02-05,https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,True,high
+Anthropic,Claude Code,2025-10-31,Claude Code 2.0.31,"​
+2.0.31
+October 31, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-10-30,Claude Code 2.0.30,"​
+2.0.30
+October 30, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-10-29,"Launched the newlogging and datasetstool
+for the Gemini API.","Launched the newlogging and datasetstool
+for the Gemini API.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-10-27,Claude Code 2.0.28,"​
+2.0.28
+October 27, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-10-24,Claude Code 2.0.27,"​
+2.0.27
+October 24, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2025-10-23,Claude’s memory on Max and Pro plans,Max plan users can now access Claude’s memory capabilities. This feature will roll out to Pro plans gradually over the next two weeks.,https://support.claude.com/en/articles/12138966-release-notes,release_notes,pricing/billing,False,high
+Anthropic,Claude Code,2025-10-21,Claude Code 2.0.25,"​
+2.0.25
+October 21, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-10-20,Claude Code 2.0.24,"​
+2.0.24
+October 20, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-10-20,The following Gemini Live API models are now shut down:gemini-2.5-flash-preview-native-audio-dialoggemini-2.5-flash-exp-,The following Gemini Live API models are now shut down:gemini-2.5-flash-preview-native-audio-dialoggemini-2.5-flash-exp-native-audio-thinking-dialogYou can usegemini-2.5-flash-native-audio-preview-09-2025instead.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-10-20,"Deprecation announcement: Shut down forgemini-2.0-flash-live-001andgemini-live-2.5-flash-previewcoming December 09, 2025","Deprecation announcement: Shut down forgemini-2.0-flash-live-001andgemini-live-2.5-flash-previewcoming December 09, 2025.",https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,True,high
+Anthropic,Claude Code,2025-10-18,Claude Code 2.0.21,"​
+2.0.21
+October 18, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-10-17,Claude Code 2.0.22,"​
+2.0.22
+October 17, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-10-17,"Grounding with Google Mapsis now
+generally available. For more information, seeGrounding with Google Mapsdocumentation.","Grounding with Google Mapsis now
+generally available. For more information, seeGrounding with Google Mapsdocumentation.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-10-16,Claude Code 2.0.20,"​
+2.0.20
+October 16, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2025-10-15,Claude Haiku 4.5 launch,"We released our fastest, most cost-efficient model – Claude Haiku 4.5. Our latest small model matches Sonnet 4’s performance on coding, computer use, and agent tasks.
+Claude in Chrome updates
+- Powered by Haiku 4.5:Claude in Chrome now defaults to Haiku 4.5 so it’s a faster, more responsive experience. You can always switch back to Sonnet 4.5.
+- Claude handles image uploads for you:Give Claude an image and tell it where to upload, whether it’s an expense report, form attachment, or a picture upl",https://support.claude.com/en/articles/12138966-release-notes,release_notes,model release,False,high
+Anthropic,Claude Code,2025-10-15,Claude Code 2.0.19,"​
+2.0.19
+October 15, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-10-15,Claude Code 2.0.17,"​
+2.0.17
+October 15, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-10-15,"ReleasedVeo 3.1 and 3.1 Fastmodels in
+public preview, with new features including:Extending Veo-created videos.Referenci","ReleasedVeo 3.1 and 3.1 Fastmodels in
+public preview, with new features including:Extending Veo-created videos.Referencing up to three images to generate a video.Providing first and last frame images to generate videos from.This launch also added more options for Veo 3 output video durations: 4, 6,
+and 8 seconds.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-10-15,"Deprecation announcement: Shut down forveo-3.0-generate-previewandveo-3.0-fast-generate-previewcoming November 12, 2025.","Deprecation announcement: Shut down forveo-3.0-generate-previewandveo-3.0-fast-generate-previewcoming November 12, 2025.",https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,True,high
+Anthropic,Claude Code,2025-10-14,Claude Code 2.0.15,"​
+2.0.15
+October 14, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-10-10,Claude Code 2.0.14,"​
+2.0.14
+October 10, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-10-09,Claude Code 2.0.13,"​
+2.0.13
+October 9, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-10-09,Claude Code 2.0.12,"​
+2.0.12
+October 9, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-10-08,Claude Code 2.0.11,"​
+2.0.11
+October 8, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-10-08,Claude Code 2.0.10,"​
+2.0.10
+October 8, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-10-07,LaunchedGemini 2.5 Computer Use Preview,LaunchedGemini 2.5 Computer Use Preview,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-10-06,Claude Code 2.0.9,"​
+2.0.9
+October 6, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-10-04,Claude Code 2.0.8,"​
+2.0.8
+October 4, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-10-04,Claude Code 2.0.5,"​
+2.0.5
+October 4, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-10-02,Launched Gemini 2.5 Flash Image GA:Image Generation with Gemini,Launched Gemini 2.5 Flash Image GA:Image Generation with Gemini,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-09-30,Claude Code 2.0.1,"​
+2.0.1
+September 30, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2025-09-29,Claude Sonnet 4.5 launch,"We released our newest model, Sonnet 4.5. This is the best model in the world for real-world agents, coding, and computer use. Read our blog post here:Claude Sonnet 4.5.
+Creating and editing files with Claude for Pro plans and mobile
+Pro users can now leverage Claude’s file creation and editing capabilities, and users on all paid plans can access these features on Claude for iOS or Android. See this updated article for more information:Create and edit files with Claude.
+Claude in Chrome updates
+",https://support.claude.com/en/articles/12138966-release-notes,release_notes,model release,False,high
+Anthropic,Claude Code,2025-09-29,Claude Code 2.0.0,"​
+2.0.0
+September 29, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-09-29,The following Gemini 1.5 models are now shut down:gemini-1.5-progemini-1.5-flash-8bgemini-1.5-flash,The following Gemini 1.5 models are now shut down:gemini-1.5-progemini-1.5-flash-8bgemini-1.5-flash,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-09-26,Claude Code 1.0.126,"​
+1.0.126
+September 26, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-09-25,Claude Code 1.0.124,"​
+1.0.124
+September 25, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-09-25,Released Gemini Robotics-ER 1.5 model in preview. See theRobotics overviewto learn about how to use the model for your r,Released Gemini Robotics-ER 1.5 model in preview. See theRobotics overviewto learn about how to use the model for your robotics application.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-09-25,Launched following preview models:gemini-2.5-flash-preview-09-2025gemini-2.5-flash-lite-preview-09-2025See theModelspage,Launched following preview models:gemini-2.5-flash-preview-09-2025gemini-2.5-flash-lite-preview-09-2025See theModelspage for details.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-09-23,Claude Code 1.0.123,"​
+1.0.123
+September 23, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-09-23,"Releasedgemini-2.5-flash-native-audio-preview-09-2025,
+a new native audio model for the Live API with improved function ","Releasedgemini-2.5-flash-native-audio-preview-09-2025,
+a new native audio model for the Live API with improved function calling
+and speech cut off handling. To learn more, see theLive API guideandGemini 2.5 Flash Native Audio.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-09-19,Claude Code 1.0.120,"​
+1.0.120
+September 19, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-09-19,Claude Code 1.0.119,"​
+1.0.119
+September 19, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-09-19,Claude Code 1.0.117,"​
+1.0.117
+September 19, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2025-09-18,Claude’s memory on Enterprise plans,"Users on Enterprise plans can leverage memory; Claude can now remember relevant context from your chats and generate a memory summary. Incognito chats give you a way to exclude conversations from Claude’s memory. Refer to the following articles for more information:
+- Using Claude’s chat search and memory to build on previous context
+- Importing and exporting your memory from Claude
+- Using incognito chats",https://support.claude.com/en/articles/12138966-release-notes,release_notes,enterprise/admin,False,high
+Anthropic,Claude,2025-09-16,Claude in Chrome expansion,"Claude in Chrome expanded to 10,000 Max plan users with the release of new capabilities:
+- Long-running workflows:Claude in Chrome can handle more complex, multi-step workflows, and continue working even when you switch tabs (as long as Chrome is open).
+- /slash commands:Save your best-working prompts as shortcuts (/slash commands) and reuse these proven workflows instantly without retyping instructions to Claude.
+- Contextual prompt suggestions:Claude in Chrome gives contextual prompt suggestio",https://support.claude.com/en/articles/12138966-release-notes,release_notes,pricing/billing,False,high
+Anthropic,Claude Code,2025-09-16,Claude Code 1.0.115,"​
+1.0.115
+September 16, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-09-16,Deprecation announcement: The following models will be shut down in October 2025:embedding-001embedding-gecko-001gemini-,"Deprecation announcement: The following models will be shut down in October 2025:embedding-001embedding-gecko-001gemini-embedding-exp-03-07(gemini-embedding-exp)See theEmbeddingspage for details on the latest embeddings
+model.",https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,True,high
+Anthropic,Claude Code,2025-09-13,Claude Code 1.0.113,"​
+1.0.113
+September 13, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-09-12,Claude Code 1.0.112,"​
+1.0.112
+September 12, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2025-09-11,"Claude’s memory on Team plans and incognito chats for free, Pro, Max, and Team plans","Claude can now remember relevant context from your chats and will generate a memory summary. Incognito chats give you a way to exclude conversations from Claude’s memory. Refer to the following new articles for more information:
+- Using Claude’s chat search and memory to build on previous context
+- Importing and exporting your memory from Claude
+- Using incognito chats",https://support.claude.com/en/articles/12138966-release-notes,release_notes,enterprise/admin,False,high
+Anthropic,Claude Code,2025-09-10,Claude Code 1.0.111,"​
+1.0.111
+September 10, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-09-10,Claude Code 1.0.110,"​
+1.0.110
+September 10, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-09-10,"Released support for theEmbeddings model in Batch API,
+and added Batch API to theOpenAI compatibility libraryfor even
+ea","Released support for theEmbeddings model in Batch API,
+and added Batch API to theOpenAI compatibility libraryfor even
+easier ways to get started with batch queries.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude,2025-09-09,Creating and editing files with Claude,"Claude can now create and edit Excel spreadsheets, PowerPoint slide decks, documents, and PDFs directly in the Claude app. Refer to the following two articles for more information:
+- Create and edit files with Claude
+- Create and edit files with Claude to eliminate hours of busy work",https://support.claude.com/en/articles/12138966-release-notes,release_notes,coding,False,high
+Anthropic,Claude Code,2025-09-09,Claude Code 1.0.109,"​
+1.0.109
+September 9, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-09-09,"Launched Veo 3 and Veo 3 Fast GA, with lower pricing and new options for
+aspect ratios, resolution, and seeding. Read th","Launched Veo 3 and Veo 3 Fast GA, with lower pricing and new options for
+aspect ratios, resolution, and seeding. Read theVeo documentationfor more
+information.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-09-05,Claude Code 1.0.106,"​
+1.0.106
+September 5, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2025-09-03,"Location, maps, and calendar access on Claude for iOS and Android","Claude can now connect with iOS and Android apps to draft calendar events, help you find locations, and manage reminders (iOS only). See updates to the following two articles for more information:
+- Using Claude with iOS Apps
+- Using Claude with Android Apps",https://support.claude.com/en/articles/12138966-release-notes,release_notes,other,False,high
+Anthropic,Claude Code,2025-08-29,Claude Code 1.0.97,"​
+1.0.97
+August 29, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2025-08-27,Code Execution Tool,"A new API tool that allows Claude to execute Python code in a secure, sandboxed environment. Refer to our docs for more information:Code execution tool.",https://support.claude.com/en/articles/12138966-release-notes,release_notes,coding,False,high
+Anthropic,Claude Code,2025-08-27,Claude Code 1.0.94,"​
+1.0.94
+August 27, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2025-08-26,Claude in Chrome,"An experimental browser extension that allows Claude to read, click, and navigate websites alongside you. SeeGetting Started with Claude in Chrome.",https://support.claude.com/en/articles/12138966-release-notes,release_notes,agent/tooling,False,high
+Anthropic,Claude Code,2025-08-26,Claude Code 1.0.93,"​
+1.0.93
+August 26, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-08-26,"LaunchedGemini 2.5 Image Preview,
+our latest native image generation model.","LaunchedGemini 2.5 Image Preview,
+our latest native image generation model.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-08-25,Claude Code 1.0.90,"​
+1.0.90
+August 25, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-08-22,Claude Code 1.0.88,"​
+1.0.88
+August 22, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-08-22,Claude Code 1.0.86,"​
+1.0.86
+August 22, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2025-08-21,Admin controls for desktop extensions,"Allows Team and Enterprise plans to enable/disable public desktop extensions and upload custom extensions. SeeAdmin Controls for Desktop Extensions.
+Making shared artifacts embeddable
+Claude users with free, Pro, or Max plans can generate an embed code for any published artifacts.",https://support.claude.com/en/articles/12138966-release-notes,release_notes,agent/tooling,False,high
+Anthropic,Claude,2025-08-20,Premium seats with Claude Code for Team and Enterprise plans,"Introduced a premium seat tier for Team and Enterprise plans offering more usage and access to Claude Code. Refer to the following articles for more information:
+- Purchasing and managing seats
+- Using Claude Code with your Team or Enterprise plan
+Extra usage for Team and Enterprise plans
+A new setting allows Team and Enterprise plan users to purchase more usage to continue chatting with Claude or using Claude Code after hitting their usage limit. SeeExtra Usage for Team and Enterprise Plans.",https://support.claude.com/en/articles/12138966-release-notes,release_notes,coding,False,high
+Anthropic,Claude Code,2025-08-19,Claude Code 1.0.85,"​
+1.0.85
+August 19, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-08-18,Claude Code 1.0.84,"​
+1.0.84
+August 18, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-08-18,Claude Code 1.0.83,"​
+1.0.83
+August 18, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-08-18,"ReleasedURL context toolto general
+availability (GA), a tool for providing URLs as additional context to
+prompts. Suppor","ReleasedURL context toolto general
+availability (GA), a tool for providing URLs as additional context to
+prompts. Support for using URL context with thegemini-2.0-flashmodel
+(available during experimental release) will be discontinued in one week.",https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,False,high
+Anthropic,Claude Code,2025-08-16,Claude Code 1.0.82,"​
+1.0.82
+August 16, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2025-08-15,Ability to change monthly Team plan billing to annual,Allowing Team plan organizations with monthly billing to upgrade to annual billing. SeeHow to change your Team plan from monthly to annual billing.,https://support.claude.com/en/articles/12138966-release-notes,release_notes,enterprise/admin,False,high
+Anthropic,Claude Code,2025-08-14,Claude Code 1.0.81,"​
+1.0.81
+August 14, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-08-14,Claude Code 1.0.80,"​
+1.0.80
+August 14, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-08-14,Claude Code 1.0.77,"​
+1.0.77
+August 14, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-08-14,"Released Imagen 4 Ultra, Standard and Fast models as generally available
+(GA). To learn more, see theImagenpage.","Released Imagen 4 Ultra, Standard and Fast models as generally available
+(GA). To learn more, see theImagenpage.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude,2025-08-12,1M token context window,"The 1M token context window for Claude Sonnet 4 is currently in beta for API organizations in usage tier 4, or with custom rate limits. See1M token context windowin our docs for more information.",https://support.claude.com/en/articles/12138966-release-notes,release_notes,model release,False,high
+Anthropic,Claude,2025-08-11,Ability to search past conversations,"Users on Max, Team, Enterprise plans can prompt Claude to search over past chats, allowing finer-grained context continuation and synthesizing across topics. SeeSearching past chats.",https://support.claude.com/en/articles/12138966-release-notes,release_notes,enterprise/admin,False,high
+Anthropic,Claude Code,2025-08-11,Claude Code 1.0.73,"​
+1.0.73
+August 11, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-08-11,Claude Code 1.0.72,"​
+1.0.72
+August 11, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-08-07,Claude Code 1.0.71,"​
+1.0.71
+August 7, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-08-07,Claude Code 1.0.70,"​
+1.0.70
+August 7, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-08-07,"allow_adultsetting in Image to Video generation are now available in
+restricted regions. See theVeopage for details.","allow_adultsetting in Image to Video generation are now available in
+restricted regions. See theVeopage for details.",https://ai.google.dev/gemini-api/docs/changelog,changelog,coding,False,high
+Anthropic,Claude,2025-08-06,Claude Code Security Reviews,"Two new cybersecurity features were added to Claude Code:
+- /security-review command
+- GitHub Actions
+SeeAutomated Security Reviews in Claude Code.",https://support.claude.com/en/articles/12138966-release-notes,release_notes,coding,False,high
+Anthropic,Claude,2025-08-05,Claude Opus 4.1,"Claude Opus 4.1 (an incremental update to Opus 4) brings enhanced performance as our most capable model for complex reasoning, analysis, and creative tasks.
+- Read our announcement here:Claude Opus 4.1.
+- Refer toModels overviewfor more specific information about Opus 4.1.",https://support.claude.com/en/articles/12138966-release-notes,release_notes,model release,False,high
+Anthropic,Claude Code,2025-08-05,Claude Code 1.0.69,"​
+1.0.69
+August 5, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-08-04,Claude Code 1.0.68,"​
+1.0.68
+August 4, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude,2025-08-01,Project Sharing,Enabled project permissions and sharing for Team and Enterprise plans. SeeOrganization-wide sharingfor more information.,https://support.claude.com/en/articles/12138966-release-notes,release_notes,coding,False,high
+Anthropic,Claude Code,2025-07-31,Claude Code 1.0.65,"​
+1.0.65
+July 31, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-07-31,Launched image-to-video generation for the Veo 3 Preview model.,Launched image-to-video generation for the Veo 3 Preview model.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-07-31,Released Veo 3 Fast Preview model.,Released Veo 3 Fast Preview model.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-07-31,"To learn more about Veo 3, visit theVeopage.","To learn more about Veo 3, visit theVeopage.",https://ai.google.dev/gemini-api/docs/changelog,changelog,other,False,high
+Anthropic,Claude Code,2025-07-30,Claude Code 1.0.64,"​
+1.0.64
+July 30, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-07-29,Claude Code 1.0.63,"​
+1.0.63
+July 29, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-07-28,Claude Code 1.0.62,"​
+1.0.62
+July 28, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-07-25,Claude Code 1.0.61,"​
+1.0.61
+July 25, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-07-24,Claude Code 1.0.60,"​
+1.0.60
+July 24, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-07-23,Claude Code 1.0.59,"​
+1.0.59
+July 23, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-07-23,Claude Code 1.0.58,"​
+1.0.58
+July 23, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-07-23,Claude Code 1.0.57,"​
+1.0.57
+July 23, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-07-23,Claude Code 1.0.56,"​
+1.0.56
+July 23, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-07-23,Claude Code 1.0.55,"​
+1.0.55
+July 23, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-07-22,"Releasedgemini-2.5-flash-lite, our fast, low-cost, high-performance Gemini
+2.5 model. To learn more, seeGemini 2.5
+Flash","Releasedgemini-2.5-flash-lite, our fast, low-cost, high-performance Gemini
+2.5 model. To learn more, seeGemini 2.5
+Flash-Lite.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-07-19,Claude Code 1.0.54,"​
+1.0.54
+July 19, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-07-18,Claude Code 1.0.53,"​
+1.0.53
+July 18, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-07-18,Claude Code 1.0.52,"​
+1.0.52
+July 18, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-07-17,"Launchedveo-3.0-generate-preview, the latest update to Veo introducing
+video with audio generation. To learn more about ","Launchedveo-3.0-generate-preview, the latest update to Veo introducing
+video with audio generation. To learn more about Veo 3, visit theVeopage.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-07-17,Increased rate limits for Imagen 4 Standard and Ultra. Visit theRate limitspage for more details.,Increased rate limits for Imagen 4 Standard and Ultra. Visit theRate limitspage for more details.,https://ai.google.dev/gemini-api/docs/changelog,changelog,multimodal,False,high
+Google,Gemini API,2025-07-14,"Releasedgemini-embedding-001, the stable version of our
+text embedding model. To learn more, seeembeddings. Thegemini-em","Releasedgemini-embedding-001, the stable version of our
+text embedding model. To learn more, seeembeddings. Thegemini-embedding-exp-03-07model will be deprecated on August 14, 2025.",https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,True,high
+Anthropic,Claude Code,2025-07-11,Claude Code 1.0.51,"​
+1.0.51
+July 11, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-07-10,Claude Code 1.0.48,"​
+1.0.48
+July 10, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-07-10,Claude Code 1.0.45,"​
+1.0.45
+July 10, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-07-07,Claude Code 1.0.44,"​
+1.0.44
+July 7, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-07-07,"Launched Gemini API Batch Mode. Batch up requests and send them to process
+asynchronously. To learn more, seeBatch Mode.","Launched Gemini API Batch Mode. Batch up requests and send them to process
+asynchronously. To learn more, seeBatch Mode.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-07-03,Claude Code 1.0.43,"​
+1.0.43
+July 3, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-07-03,Claude Code 1.0.42,"​
+1.0.42
+July 3, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-07-03,Claude Code 1.0.41,"​
+1.0.41
+July 3, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-07-03,Claude Code 1.0.40,"​
+1.0.40
+July 3, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-07-03,Claude Code 1.0.39,"​
+1.0.39
+July 3, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-30,Claude Code 1.0.38,"​
+1.0.38
+June 30, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-30,Claude Code 1.0.37,"​
+1.0.37
+June 30, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-30,Claude Code 1.0.36,"​
+1.0.36
+June 30, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-06-26,"The preview modelsgemini-2.5-pro-preview-05-06andgemini-2.5-pro-preview-03-25are now redirecting to
+the latest stable ve","The preview modelsgemini-2.5-pro-preview-05-06andgemini-2.5-pro-preview-03-25are now redirecting to
+the latest stable versiongemini-2.5-pro.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-06-26,gemini-2.5-pro-exp-03-25is shut down.,gemini-2.5-pro-exp-03-25is shut down.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-06-25,Claude Code 1.0.35,"​
+1.0.35
+June 25, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-24,Claude Code 1.0.34,"​
+1.0.34
+June 24, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-24,Claude Code 1.0.33,"​
+1.0.33
+June 24, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-24,Claude Code 1.0.32,"​
+1.0.32
+June 24, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-24,Claude Code 1.0.31,"​
+1.0.31
+June 24, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-24,Claude Code 1.0.30,"​
+1.0.30
+June 24, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-24,Claude Code 1.0.29,"​
+1.0.29
+June 24, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-24,Claude Code 1.0.28,"​
+1.0.28
+June 24, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-06-24,"Released Imagen 4 Ultra and Standard Preview models. To learn more, see theImage generationpage.","Released Imagen 4 Ultra and Standard Preview models. To learn more, see theImage generationpage.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-06-18,Claude Code 1.0.27,"​
+1.0.27
+June 18, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-06-17,"Releasedgemini-2.5-pro, the stable version of our most powerful
+model, now with adaptive thinking. To learn more, seeGem","Releasedgemini-2.5-pro, the stable version of our most powerful
+model, now with adaptive thinking. To learn more, seeGemini 2.5 ProandThinking.gemini-2.5-pro-preview-05-06will be redirected togemini-2.5-proon June 26, 2025.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-06-17,"Releasedgemini-2.5-flash, our first stable 2.5 Flash model. To learn
+more, seeGemini 2.5 Flash.gemini-2.5-flash-preview-","Releasedgemini-2.5-flash, our first stable 2.5 Flash model. To learn
+more, seeGemini 2.5 Flash.gemini-2.5-flash-preview-04-17will be deprecated on July 15, 2025.",https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,True,high
+Google,Gemini API,2025-06-17,"Releasedgemini-2.5-flash-lite-preview-06-17, a low-cost, high-performance
+Gemini 2.5 model. To learn more, seeGemini 2.5","Releasedgemini-2.5-flash-lite-preview-06-17, a low-cost, high-performance
+Gemini 2.5 model. To learn more, seeGemini 2.5 Flash-Lite
+Preview.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-06-16,Claude Code 1.0.25,"​
+1.0.25
+June 16, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-16,Claude Code 1.0.24,"​
+1.0.24
+June 16, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-16,Claude Code 1.0.23,"​
+1.0.23
+June 16, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-12,Claude Code 1.0.22,"​
+1.0.22
+June 12, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-12,Claude Code 1.0.21,"​
+1.0.21
+June 12, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-09,Claude Code 1.0.18,"​
+1.0.18
+June 9, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-09,Claude Code 1.0.17,"​
+1.0.17
+June 9, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-06-05,"Releasedgemini-2.5-pro-preview-06-05, a new version of our most powerful
+model, now with adaptive thinking. To learn mor","Releasedgemini-2.5-pro-preview-06-05, a new version of our most powerful
+model, now with adaptive thinking. To learn more, seeGemini 2.5 Pro PreviewandThinking.gemini-2.5-pro-preview-05-06will be redirected togemini-2.5-proon
+June 26, 2025.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-06-04,Claude Code 1.0.11,"​
+1.0.11
+June 4, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-04,Claude Code 1.0.10,"​
+1.0.10
+June 4, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-02,Claude Code 1.0.8,"​
+1.0.8
+June 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-02,Claude Code 1.0.7,"​
+1.0.7
+June 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-06-02,Claude Code 1.0.6,"​
+1.0.6
+June 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-05-28,Claude Code 1.0.4,"​
+1.0.4
+May 28, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-05-27,"The last available tuning model, Gemini 1.5 Flash 001, has been shut down.
+Tuning is no longer supported on any models.
+","The last available tuning model, Gemini 1.5 Flash 001, has been shut down.
+Tuning is no longer supported on any models.
+SeeFine tuning with the Gemini API.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,True,high
+Anthropic,Claude Code,2025-05-22,Claude Code 1.0.1,"​
+1.0.1
+May 22, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-05-22,Claude Code 1.0.0,"​
+1.0.0
+May 22, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-05-21,Claude Code 0.2.125,"​
+0.2.125
+May 21, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-05-20,API updates:,API updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2025-05-20,Launched support forcustom video preprocessingusing clipping intervals and configurable frame rate sampling.,Launched support forcustom video preprocessingusing clipping intervals and configurable frame rate sampling.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-05-20,"Launched multi-tool use, which supports configuringcode executionandGrounding with Google Searchon the samegenerateConte","Launched multi-tool use, which supports configuringcode executionandGrounding with Google Searchon the samegenerateContentrequest.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-05-20,Launched support forasynchronous function callsin the Live API.,Launched support forasynchronous function callsin the Live API.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-05-20,Launched an experimentalURL context toolfor providing URLs as additional context to prompts.,Launched an experimentalURL context toolfor providing URLs as additional context to prompts.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-05-20,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-05-20,"Releasedgemini-2.5-flash-preview-05-20, a Geminipreviewmodel optimized for
+price-performance and adaptive thinking. To l","Releasedgemini-2.5-flash-preview-05-20, a Geminipreviewmodel optimized for
+price-performance and adaptive thinking. To learn more, seeGemini 2.5 Flash PreviewandThinking.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-05-20,"Released thegemini-2.5-pro-preview-ttsandgemini-2.5-flash-preview-ttsmodels, which are capable ofgenerating speechwith o","Released thegemini-2.5-pro-preview-ttsandgemini-2.5-flash-preview-ttsmodels, which are capable ofgenerating speechwith one or two
+speakers.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-05-20,"Released thelyria-realtime-expmodel, whichgenerates musicin real time.","Released thelyria-realtime-expmodel, whichgenerates musicin real time.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-05-20,"Releasedgemini-2.5-flash-preview-native-audio-dialogandgemini-2.5-flash-exp-native-audio-thinking-dialog,
+new Gemini mod","Releasedgemini-2.5-flash-preview-native-audio-dialogandgemini-2.5-flash-exp-native-audio-thinking-dialog,
+new Gemini models for the Live API with native audio output capabilities. To
+learn more, see theLive API guideandGemini 2.5 Flash Native Audio.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-05-20,"Releasedgemma-3n-e4b-itpreview, available onAI Studioand through the Gemini API,
+as part of theGemma 3nlaunch.","Releasedgemma-3n-e4b-itpreview, available onAI Studioand through the Gemini API,
+as part of theGemma 3nlaunch.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-05-17,Claude Code 0.2.117,"​
+0.2.117
+May 17, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-05-13,Claude Code 0.2.108,"​
+0.2.108
+May 13, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-05-09,Claude Code 0.2.107,"​
+0.2.107
+May 9, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-05-09,Claude Code 0.2.106,"​
+0.2.106
+May 9, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-05-08,Claude Code 0.2.105,"​
+0.2.105
+May 8, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-05-07,"Releasedgemini-2.0-flash-preview-image-generation, a preview model for
+generating and editing images. To learn more, see","Releasedgemini-2.0-flash-preview-image-generation, a preview model for
+generating and editing images. To learn more, seeImage
+generationandGemini 2.0 Flash Preview Image
+Generation.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-05-06,"Releasedgemini-2.5-pro-preview-05-06, a new version of our most powerful
+model, with improvements on code and function c","Releasedgemini-2.5-pro-preview-05-06, a new version of our most powerful
+model, with improvements on code and function calling.gemini-2.5-pro-preview-03-25will automatically point to the new version of the model.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-05-05,Claude Code 0.2.102,"​
+0.2.102
+May 5, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-05-02,Claude Code 0.2.100,"​
+0.2.100
+May 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-05-01,Claude Code 0.2.98,"​
+0.2.98
+May 1, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-05-01,Claude Code 0.2.96,"​
+0.2.96
+May 1, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-30,Claude Code 0.2.93,"​
+0.2.93
+April 30, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-25,Claude Code 0.2.82,"​
+0.2.82
+April 25, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-21,Claude Code 0.2.75,"​
+0.2.75
+April 21, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-18,Claude Code 0.2.74,"​
+0.2.74
+April 18, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-18,Claude Code 0.2.72,"​
+0.2.72
+April 18, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-17,Claude Code 0.2.70,"​
+0.2.70
+April 17, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-17,Claude Code 0.2.69,"​
+0.2.69
+April 17, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-17,Claude Code 0.2.67,"​
+0.2.67
+April 17, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-17,Claude Code 0.2.66,"​
+0.2.66
+April 17, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-17,Claude Code 0.2.63,"​
+0.2.63
+April 17, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-04-17,"Releasedgemini-2.5-flash-preview-04-17, a Geminipreviewmodel optimized for
+price-performance and adaptive thinking. To l","Releasedgemini-2.5-flash-preview-04-17, a Geminipreviewmodel optimized for
+price-performance and adaptive thinking. To learn more, seeGemini 2.5 Flash PreviewandThinking.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-04-16,Launched context caching forGemini 2.0 Flash.,Launched context caching forGemini 2.0 Flash.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-04-09,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-04-09,"Releasedveo-2.0-generate-001, a generally available (GA) text- and
+image-to-video model, capable of generating detailed ","Releasedveo-2.0-generate-001, a generally available (GA) text- and
+image-to-video model, capable of generating detailed and artistically
+nuanced videos. To learn more, see theVeo docs.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-04-09,"Releasedgemini-2.0-flash-live-001, a public preview version of theLive APImodel with billing enabled.Enhanced Session Ma","Releasedgemini-2.0-flash-live-001, a public preview version of theLive APImodel with billing enabled.Enhanced Session Management and ReliabilitySession Resumption:Keep sessions alive across temporary network
+disruptions. The API now supports server-side session state storage (for
+up to 24 hours) and provides handles (session_resumption) to reconnect
+and resume where you left off.Longer Sessions via Context Compression:Enable extended
+interactions beyond previous time limits. Configure context wi",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-04-04,"Releasedgemini-2.5-pro-preview-03-25, a public preview Gemini 2.5 Pro version
+with billing enabled. You can continue to ","Releasedgemini-2.5-pro-preview-03-25, a public preview Gemini 2.5 Pro version
+with billing enabled. You can continue to usegemini-2.5-pro-exp-03-25on
+the free tier.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Anthropic,Claude Code,2025-04-02,Claude Code 0.2.61,"​
+0.2.61
+April 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-02,Claude Code 0.2.59,"​
+0.2.59
+April 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-02,Claude Code 0.2.54,"​
+0.2.54
+April 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-02,Claude Code 0.2.53,"​
+0.2.53
+April 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-02,Claude Code 0.2.50,"​
+0.2.50
+April 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-02,Claude Code 0.2.49,"​
+0.2.49
+April 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-02,Claude Code 0.2.47,"​
+0.2.47
+April 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-02,Claude Code 0.2.44,"​
+0.2.44
+April 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-02,Claude Code 0.2.41,"​
+0.2.41
+April 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-02,Claude Code 0.2.37,"​
+0.2.37
+April 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-02,Claude Code 0.2.36,"​
+0.2.36
+April 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-02,Claude Code 0.2.34,"​
+0.2.34
+April 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-02,Claude Code 0.2.32,"​
+0.2.32
+April 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-02,Claude Code 0.2.31,"​
+0.2.31
+April 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-02,Claude Code 0.2.30,"​
+0.2.30
+April 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-02,Claude Code 0.2.26,"​
+0.2.26
+April 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Anthropic,Claude Code,2025-04-02,Claude Code 0.2.21,"​
+0.2.21
+April 2, 2025",https://code.claude.com/docs/en/changelog,changelog,coding,False,low
+Google,Gemini API,2025-03-25,"Releasedgemini-2.5-pro-exp-03-25, a public experimental Gemini model
+with thinking mode always on by default.
+To learn m","Releasedgemini-2.5-pro-exp-03-25, a public experimental Gemini model
+with thinking mode always on by default.
+To learn more, seeGemini 2.5 Pro Experimental.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-03-12,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-03-12,Launched an experimentalGemini 2.0 Flashmodel capable of image generation and editing.,Launched an experimentalGemini 2.0 Flashmodel capable of image generation and editing.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-03-12,"Releasedgemma-3-27b-it, available onAI Studioand through the Gemini API,
+as part of theGemma 3launch.","Releasedgemma-3-27b-it, available onAI Studioand through the Gemini API,
+as part of theGemma 3launch.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-03-12,API updates:,API updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2025-03-12,Added support forYouTube URLsas a media source.,Added support forYouTube URLsas a media source.,https://ai.google.dev/gemini-api/docs/changelog,changelog,other,False,high
+Google,Gemini API,2025-03-12,Added support for including aninline videoof less than 20MB.,Added support for including aninline videoof less than 20MB.,https://ai.google.dev/gemini-api/docs/changelog,changelog,coding,False,high
+Google,Gemini API,2025-03-11,SDK updates:,SDK updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,coding,False,high
+Google,Gemini API,2025-03-11,Released theGoogle Gen AI SDK for TypeScript and JavaScriptto public preview.,Released theGoogle Gen AI SDK for TypeScript and JavaScriptto public preview.,https://ai.google.dev/gemini-api/docs/changelog,changelog,coding,False,high
+Google,Gemini API,2025-03-07,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-03-07,"Releasedgemini-embedding-exp-03-07, anexperimentalGemini-based embeddings model in public preview.","Releasedgemini-embedding-exp-03-07, anexperimentalGemini-based embeddings model in public preview.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-02-28,API updates:,API updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2025-02-28,"Support forSearch as a tooladded togemini-2.0-pro-exp-02-05, an experimental model based on
+Gemini 2.0 Pro.","Support forSearch as a tooladded togemini-2.0-pro-exp-02-05, an experimental model based on
+Gemini 2.0 Pro.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-02-25,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-02-25,"Releasedgemini-2.0-flash-lite, a generally available (GA) version ofGemini 2.0 Flash-Lite,
+which is optimized for speed,","Releasedgemini-2.0-flash-lite, a generally available (GA) version ofGemini 2.0 Flash-Lite,
+which is optimized for speed, scale, and cost efficiency.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-02-19,AI Studio updates:,AI Studio updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,other,False,high
+Google,Gemini API,2025-02-19,"Support foradditional regions(Kosovo, Greenland and Faroe Islands).","Support foradditional regions(Kosovo, Greenland and Faroe Islands).",https://ai.google.dev/gemini-api/docs/changelog,changelog,other,False,high
+Google,Gemini API,2025-02-19,API updates:,API updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2025-02-19,"Support foradditional regions(Kosovo, Greenland and Faroe Islands).","Support foradditional regions(Kosovo, Greenland and Faroe Islands).",https://ai.google.dev/gemini-api/docs/changelog,changelog,other,False,high
+Google,Gemini API,2025-02-18,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-02-18,"Gemini 1.0 Pro is no longer supported. For the list of supported models, seeGemini models.","Gemini 1.0 Pro is no longer supported. For the list of supported models, seeGemini models.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,True,high
+Google,Gemini API,2025-02-11,API updates:,API updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2025-02-11,Updates on theOpenAI libraries compatibility.,Updates on theOpenAI libraries compatibility.,https://ai.google.dev/gemini-api/docs/changelog,changelog,other,False,high
+Google,Gemini API,2025-02-06,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-02-06,"Releasedimagen-3.0-generate-002, a generally available (GA) version ofImagen 3 in the Gemini API.","Releasedimagen-3.0-generate-002, a generally available (GA) version ofImagen 3 in the Gemini API.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-02-06,SDK updates:,SDK updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,coding,False,high
+Google,Gemini API,2025-02-06,Released theGoogle Gen AI SDK for Javafor public preview.,Released theGoogle Gen AI SDK for Javafor public preview.,https://ai.google.dev/gemini-api/docs/changelog,changelog,coding,False,high
+Google,Gemini API,2025-02-05,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-02-05,"Releasedgemini-2.0-flash-001, a generally available (GA) version ofGemini 2.0 Flashthat
+supports text-only output.","Releasedgemini-2.0-flash-001, a generally available (GA) version ofGemini 2.0 Flashthat
+supports text-only output.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-02-05,"Releasedgemini-2.0-pro-exp-02-05,
+anexperimentalpublic
+preview version of Gemini 2.0 Pro.","Releasedgemini-2.0-pro-exp-02-05,
+anexperimentalpublic
+preview version of Gemini 2.0 Pro.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-02-05,"Releasedgemini-2.0-flash-lite-preview-02-05, an experimental public
+previewmodeloptimized for cost efficiency.","Releasedgemini-2.0-flash-lite-preview-02-05, an experimental public
+previewmodeloptimized for cost efficiency.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-02-05,API updates:,API updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2025-02-05,Addedfile input and graph outputsupport to code execution.,Addedfile input and graph outputsupport to code execution.,https://ai.google.dev/gemini-api/docs/changelog,changelog,coding,False,high
+Google,Gemini API,2025-02-05,SDK updates:,SDK updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,coding,False,high
+Google,Gemini API,2025-02-05,Released theGoogle Gen AI SDK for Pythonto general availability (GA).,Released theGoogle Gen AI SDK for Pythonto general availability (GA).,https://ai.google.dev/gemini-api/docs/changelog,changelog,coding,False,high
+Google,Gemini API,2025-01-21,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2025-01-21,"Releasedgemini-2.0-flash-thinking-exp-01-21, the latest preview version of
+the model behind theGemini 2.0 Flash Thinking","Releasedgemini-2.0-flash-thinking-exp-01-21, the latest preview version of
+the model behind theGemini 2.0 Flash Thinking Model.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-12-19,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-12-19,"Released Gemini 2.0 Flash Thinking Mode for public preview. Thinking Mode is
+a test-time compute model that lets you see","Released Gemini 2.0 Flash Thinking Mode for public preview. Thinking Mode is
+a test-time compute model that lets you see the model's thought process
+while it generates a response, and produces responses with stronger
+reasoning capabilities.Read more about Gemini 2.0 Flash Thinking Mode in ouroverview
+page.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-12-11,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-12-11,ReleasedGemini 2.0 Flash Experimentalfor public preview. Gemini 2.0 Flash Experimental's partial list of features includ,"ReleasedGemini 2.0 Flash Experimentalfor public preview. Gemini 2.0 Flash Experimental's partial list of features includes:Twice as fast as Gemini 1.5 ProBidirectional streaming with our Live APIMultimodal response generation in the form of text, images, and speechBuilt-in tool use with multi-turn reasoning to use features like code
+execution, Search, function calling, and more",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-12-11,"Read more about Gemini 2.0 Flash in ouroverview
+page.","Read more about Gemini 2.0 Flash in ouroverview
+page.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-11-21,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-11-21,"Releasedgemini-exp-1121, an even more powerful experimental Gemini API model.","Releasedgemini-exp-1121, an even more powerful experimental Gemini API model.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-11-21,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-11-21,"Updated thegemini-1.5-flash-latestandgemini-1.5-flashmodel aliases
+to usegemini-1.5-flash-002.Change totop_kparameter: T","Updated thegemini-1.5-flash-latestandgemini-1.5-flashmodel aliases
+to usegemini-1.5-flash-002.Change totop_kparameter: Thegemini-1.5-flash-002model supportstop_kvalues between 1 and 41 (exclusive).
+Values greater than 40 will be changed to 40.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-11-14,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-11-14,"Releasedgemini-exp-1114, a powerful experimental Gemini API model.","Releasedgemini-exp-1114, a powerful experimental Gemini API model.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-11-08,API updates:,API updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2024-11-08,Addedsupport for Geminiin the OpenAI libraries / REST API.,Addedsupport for Geminiin the OpenAI libraries / REST API.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-10-31,API updates:,API updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2024-10-31,Addedsupport for Grounding with Google Search.,Addedsupport for Grounding with Google Search.,https://ai.google.dev/gemini-api/docs/changelog,changelog,other,False,high
+Google,Gemini API,2024-10-03,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-10-03,"Releasedgemini-1.5-flash-8b-001, a stable version of our smallest Gemini
+API model.","Releasedgemini-1.5-flash-8b-001, a stable version of our smallest Gemini
+API model.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-09-24,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-09-24,"Releasedgemini-1.5-pro-002andgemini-1.5-flash-002, two new stable
+versions of Gemini 1.5 Pro and 1.5 Flash, for general ","Releasedgemini-1.5-pro-002andgemini-1.5-flash-002, two new stable
+versions of Gemini 1.5 Pro and 1.5 Flash, for general availability.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-09-24,Updated thegemini-1.5-pro-latestmodel code to usegemini-1.5-pro-002and thegemini-1.5-flash-latestmodel code to usegemini,Updated thegemini-1.5-pro-latestmodel code to usegemini-1.5-pro-002and thegemini-1.5-flash-latestmodel code to usegemini-1.5-flash-002.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-09-24,Releasedgemini-1.5-flash-8b-exp-0924to replacegemini-1.5-flash-8b-exp-0827.,Releasedgemini-1.5-flash-8b-exp-0924to replacegemini-1.5-flash-8b-exp-0827.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-09-24,Released thecivic integrity safety filterfor the Gemini API and AI Studio.,Released thecivic integrity safety filterfor the Gemini API and AI Studio.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-09-24,"Released support for two new parameters for Gemini 1.5 Pro and 1.5 Flash in
+Python and NodeJS:frequencyPenaltyandpresenc","Released support for two new parameters for Gemini 1.5 Pro and 1.5 Flash in
+Python and NodeJS:frequencyPenaltyandpresencePenalty.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-09-19,AI Studio updates:,AI Studio updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,other,False,high
+Google,Gemini API,2024-09-19,"Added thumb-up and thumb-down buttons to model responses, to enable users to
+provide feedback on the quality of a respon","Added thumb-up and thumb-down buttons to model responses, to enable users to
+provide feedback on the quality of a response.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-09-19,API updates:,API updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2024-09-19,"Added support for Google Cloud credits, which can now be used towards
+Gemini API usage.","Added support for Google Cloud credits, which can now be used towards
+Gemini API usage.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-09-17,AI Studio updates:,AI Studio updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,other,False,high
+Google,Gemini API,2024-09-17,"Added anOpen in Colabbutton that exports a prompt – and the
+code to run it – to a Colab notebook. The feature doesn't ye","Added anOpen in Colabbutton that exports a prompt – and the
+code to run it – to a Colab notebook. The feature doesn't yet support
+prompting with tools (JSON mode, function calling, or code execution).",https://ai.google.dev/gemini-api/docs/changelog,changelog,coding,False,high
+Google,Gemini API,2024-09-13,AI Studio updates:,AI Studio updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,other,False,high
+Google,Gemini API,2024-09-13,"Added support for compare mode, which lets you compare responses across
+ models and prompts to find the best fit for you","Added support for compare mode, which lets you compare responses across
+ models and prompts to find the best fit for your use case.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-08-30,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-08-30,Gemini 1.5 Flash supportssupplying JSON schema through model configuration.,Gemini 1.5 Flash supportssupplying JSON schema through model configuration.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-08-27,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-08-27,Released the followingexperimental models:gemini-1.5-pro-exp-0827gemini-1.5-flash-exp-0827gemini-1.5-flash-8b-exp-0827,Released the followingexperimental models:gemini-1.5-pro-exp-0827gemini-1.5-flash-exp-0827gemini-1.5-flash-8b-exp-0827,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-08-09,API updates:,API updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2024-08-09,Added support forPDF processing.,Added support forPDF processing.,https://ai.google.dev/gemini-api/docs/changelog,changelog,multimodal,False,high
+Google,Gemini API,2024-08-05,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-08-05,Fine-tuning support released for Gemini 1.5 Flash.,Fine-tuning support released for Gemini 1.5 Flash.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-08-01,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-08-01,"Releasedgemini-1.5-pro-exp-0801, a new experimental version ofGemini 1.5 Pro.","Releasedgemini-1.5-pro-exp-0801, a new experimental version ofGemini 1.5 Pro.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-07-12,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-07-12,Support for Gemini 1.0 Pro Vision removed from Google AI services and tools.,Support for Gemini 1.0 Pro Vision removed from Google AI services and tools.,https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,False,high
+Google,Gemini API,2024-06-27,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-06-27,General availability release for Gemini 1.5 Pro's 2M context window.,General availability release for Gemini 1.5 Pro's 2M context window.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-06-27,API updates:,API updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2024-06-27,Added support forcode execution.,Added support forcode execution.,https://ai.google.dev/gemini-api/docs/changelog,changelog,coding,False,high
+Google,Gemini API,2024-06-18,API updates:,API updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2024-06-18,Added support forcontext caching.,Added support forcontext caching.,https://ai.google.dev/gemini-api/docs/changelog,changelog,other,False,high
+Google,Gemini API,2024-06-12,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-06-12,Gemini 1.0 Pro Vision deprecated.,Gemini 1.0 Pro Vision deprecated.,https://ai.google.dev/gemini-api/docs/changelog,changelog,deprecation,True,high
+Google,Gemini API,2024-05-23,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-05-23,Gemini 1.5 Pro(gemini-1.5-pro-001) is generally available (GA).,Gemini 1.5 Pro(gemini-1.5-pro-001) is generally available (GA).,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-05-23,Gemini 1.5 Flash(gemini-1.5-flash-001) is generally available (GA).,Gemini 1.5 Flash(gemini-1.5-flash-001) is generally available (GA).,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-05-14,API updates:,API updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2024-05-14,Introduced a 2M context window for Gemini 1.5 Pro (waitlist).,Introduced a 2M context window for Gemini 1.5 Pro (waitlist).,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-05-14,"Introduced pay-as-you-gobillingfor Gemini 1.0
+Pro, with Gemini 1.5 Pro and Gemini 1.5 Flash billing coming soon.","Introduced pay-as-you-gobillingfor Gemini 1.0
+Pro, with Gemini 1.5 Pro and Gemini 1.5 Flash billing coming soon.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-05-14,"Introduced increased rate limits for the upcoming paid tier of Gemini 1.5
+Pro.","Introduced increased rate limits for the upcoming paid tier of Gemini 1.5
+Pro.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-05-14,Added built-in video support to theFile API.,Added built-in video support to theFile API.,https://ai.google.dev/gemini-api/docs/changelog,changelog,coding,False,high
+Google,Gemini API,2024-05-14,Added plain text support to theFile API.,Added plain text support to theFile API.,https://ai.google.dev/gemini-api/docs/changelog,changelog,multimodal,False,high
+Google,Gemini API,2024-05-14,"Added support for parallel function calling, which returns more than one
+call at a time.","Added support for parallel function calling, which returns more than one
+call at a time.",https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2024-05-10,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-05-10,ReleasedGemini 1.5 Flash(gemini-1.5-flash-latest) in preview.,ReleasedGemini 1.5 Flash(gemini-1.5-flash-latest) in preview.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-04-09,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-04-09,ReleasedGemini 1.5 Pro(gemini-1.5-pro-latest) in preview.,ReleasedGemini 1.5 Pro(gemini-1.5-pro-latest) in preview.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-04-09,"Released a new text embedding model,text-embeddings-004, which supportselastic embeddingsizes under 768.","Released a new text embedding model,text-embeddings-004, which supportselastic embeddingsizes under 768.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-04-09,API updates:,API updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2024-04-09,"Released theFile APIfor temporarily storing
+media files for use in prompting.","Released theFile APIfor temporarily storing
+media files for use in prompting.",https://ai.google.dev/gemini-api/docs/changelog,changelog,multimodal,False,high
+Google,Gemini API,2024-04-09,"Added support for prompting with text, image, and audio data, also
+known asmultimodalprompting. To learn more, seePrompt","Added support for prompting with text, image, and audio data, also
+known asmultimodalprompting. To learn more, seePrompting with media.",https://ai.google.dev/gemini-api/docs/changelog,changelog,multimodal,False,high
+Google,Gemini API,2024-04-09,"ReleasedSystem instructionsin
+beta.","ReleasedSystem instructionsin
+beta.",https://ai.google.dev/gemini-api/docs/changelog,changelog,other,False,high
+Google,Gemini API,2024-04-09,"AddedFunction calling mode,
+which defines the execution behavior for function calling.","AddedFunction calling mode,
+which defines the execution behavior for function calling.",https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2024-04-09,"Added support for theresponse_mime_typeconfiguration option, which lets
+you request responses inJSON format.","Added support for theresponse_mime_typeconfiguration option, which lets
+you request responses inJSON format.",https://ai.google.dev/gemini-api/docs/changelog,changelog,other,False,high
+Google,Gemini API,2024-03-19,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2024-03-19,Added support fortuning Gemini 1.0 Proin Google AI Studio or with the Gemini API.,Added support fortuning Gemini 1.0 Proin Google AI Studio or with the Gemini API.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2023-12-13,Model updates:,Model updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2023-12-13,"gemini-pro: New text model for a wide variety of tasks. Balances capability
+and efficiency.","gemini-pro: New text model for a wide variety of tasks. Balances capability
+and efficiency.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2023-12-13,"gemini-pro-vision: New multimodal model for a wide variety of tasks.
+Balances capability and efficiency.","gemini-pro-vision: New multimodal model for a wide variety of tasks.
+Balances capability and efficiency.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2023-12-13,embedding-001: New embeddings model.,embedding-001: New embeddings model.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2023-12-13,"aqa: A new specially tuned model that is trained to answer questions
+  using text passages for grounding generated answe","aqa: A new specially tuned model that is trained to answer questions
+  using text passages for grounding generated answers.",https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2023-12-13,SeeGemini modelsfor more details.,SeeGemini modelsfor more details.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2023-12-13,API version updates:,API version updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2023-12-13,v1: The stable API channel.,v1: The stable API channel.,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2023-12-13,"v1beta: Beta channel. This channel has features that may be under
+development.","v1beta: Beta channel. This channel has features that may be under
+development.",https://ai.google.dev/gemini-api/docs/changelog,changelog,other,False,high
+Google,Gemini API,2023-12-13,Seethe API versions topicfor more details.,Seethe API versions topicfor more details.,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2023-12-13,API updates:,API updates:,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2023-12-13,GenerateContentis a single unified endpoint for chat and text.,GenerateContentis a single unified endpoint for chat and text.,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2023-12-13,Streaming available through theStreamGenerateContentmethod.,Streaming available through theStreamGenerateContentmethod.,https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2023-12-13,Multimodal capability: Image is a new supported modality,Multimodal capability: Image is a new supported modality,https://ai.google.dev/gemini-api/docs/changelog,changelog,multimodal,False,high
+Google,Gemini API,2023-12-13,New beta features:Function CallingSemantic RetrieverAttributed Question Answering (AQA),New beta features:Function CallingSemantic RetrieverAttributed Question Answering (AQA),https://ai.google.dev/gemini-api/docs/changelog,changelog,API capability,False,high
+Google,Gemini API,2023-12-13,Updated candidate count: Gemini models only return 1 candidate.,Updated candidate count: Gemini models only return 1 candidate.,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
+Google,Gemini API,2023-12-13,Different Safety Settings and SafetyRating categories. Seesafety settingsfor more details.,Different Safety Settings and SafetyRating categories. Seesafety settingsfor more details.,https://ai.google.dev/gemini-api/docs/changelog,changelog,safety/policy,False,high
+Google,Gemini API,2023-12-13,Tuning models is not yet supported for Gemini models (Work in progress).,Tuning models is not yet supported for Gemini models (Work in progress).,https://ai.google.dev/gemini-api/docs/changelog,changelog,model release,False,high
